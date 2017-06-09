@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_paz84MfjEeaFCLdFiwuCbQ" name="ContainerManaged">
+  <realizes href="Hibernate.core#_9HQegMeEEeaYKf6Vy3kwXw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_paz84cfjEeaFCLdFiwuCbQ">
+    <classes xsi:type="ram:Class" xmi:id="_paz84sfjEeaFCLdFiwuCbQ" name="CMTTransaction" visibility="public">
+      <operations xmi:id="_paz848fjEeaFCLdFiwuCbQ" name="doCommit" visibility="public" returnType="_paz85sfjEeaFCLdFiwuCbQ"/>
+      <operations xmi:id="_paz85MfjEeaFCLdFiwuCbQ" name="doBegin" visibility="public" returnType="_paz85sfjEeaFCLdFiwuCbQ"/>
+      <operations xmi:id="_paz85cfjEeaFCLdFiwuCbQ" name="doRollback" visibility="public" returnType="_paz85sfjEeaFCLdFiwuCbQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_viz14MfjEeaFCLdFiwuCbQ" name="CMTTransactionFactory" visibility="public">
+      <operations xmi:id="_z7MLYMfjEeaFCLdFiwuCbQ" name="canBeDriver" visibility="public" returnType="_paz85sfjEeaFCLdFiwuCbQ"/>
+      <operations xmi:id="_350kIMfjEeaFCLdFiwuCbQ" name="compatibleWithJtaSynchronization" visibility="public" returnType="_paz85sfjEeaFCLdFiwuCbQ"/>
+      <operations xmi:id="_7chO0MfjEeaFCLdFiwuCbQ" name="isJoinableJtaTransaction" visibility="public" returnType="_paz85sfjEeaFCLdFiwuCbQ"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_paz85sfjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_paz858fjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_paz86MfjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_paz86cfjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_paz86sfjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RString" xmi:id="_paz868fjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_paz87MfjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_paz87cfjEeaFCLdFiwuCbQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_paz87sfjEeaFCLdFiwuCbQ"/>
+  </structuralView>
+  <instantiations xmi:id="_paz878fjEeaFCLdFiwuCbQ">
+    <source xsi:type="ram:Aspect" href="Managed.ram#_FK5OEMfjEeaFCLdFiwuCbQ"/>
+  </instantiations>
+  <layout xmi:id="_paz88MfjEeaFCLdFiwuCbQ">
+    <containers xmi:id="_paz88cfjEeaFCLdFiwuCbQ" key="_paz84cfjEeaFCLdFiwuCbQ">
+      <value xmi:id="_paz88sfjEeaFCLdFiwuCbQ" key="_paz84sfjEeaFCLdFiwuCbQ">
+        <value xmi:id="_paz888fjEeaFCLdFiwuCbQ" x="181.00012" y="204.99992"/>
+      </value>
+      <value xmi:id="_viz14cfjEeaFCLdFiwuCbQ" key="_viz14MfjEeaFCLdFiwuCbQ">
+        <value xmi:id="_viz14sfjEeaFCLdFiwuCbQ" x="584.0" y="243.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4nluUMcNEea7Pbw8qnOUYw" name="ApacheDBCP">
+  <realizes href="Hibernate.core#_6NfMkMb2EearrOfieNyE4A"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_4nmVYMcNEea7Pbw8qnOUYw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4nmVYccNEea7Pbw8qnOUYw" name="DBCPConnectionProvider" visibility="public" instanceClassName="org.hibernate.connection.DBCPConnectionProvider">
+      <operations xmi:id="_4nmVYscNEea7Pbw8qnOUYw" name="close" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVY8cNEea7Pbw8qnOUYw" name="closeConnection" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw">
+        <parameters xmi:id="_4nmVZMcNEea7Pbw8qnOUYw" name="arg0" type="_4nmVdscNEea7Pbw8qnOUYw"/>
+      </operations>
+      <operations xmi:id="_4nmVZccNEea7Pbw8qnOUYw" name="configure" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw">
+        <parameters xmi:id="_4nmVZscNEea7Pbw8qnOUYw" name="arg0" type="_4nmVd8cNEea7Pbw8qnOUYw"/>
+      </operations>
+      <operations xmi:id="_4nmVZ8cNEea7Pbw8qnOUYw" name="equals" visibility="public" returnType="_4nmVfccNEea7Pbw8qnOUYw">
+        <parameters xmi:id="_4nmVaMcNEea7Pbw8qnOUYw" name="arg0" type="_4nmVeMcNEea7Pbw8qnOUYw"/>
+      </operations>
+      <operations xmi:id="_4nmVaccNEea7Pbw8qnOUYw" name="getClass" visibility="public" returnType="_4nmVeccNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVascNEea7Pbw8qnOUYw" name="getConnection" visibility="public" returnType="_4nmVdscNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVa8cNEea7Pbw8qnOUYw" name="hashCode" visibility="public" returnType="_4nmVfscNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVbMcNEea7Pbw8qnOUYw" name="isStatementCache" visibility="public" returnType="_4nmVfccNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVbccNEea7Pbw8qnOUYw" name="notify" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVbscNEea7Pbw8qnOUYw" name="notifyAll" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVb8cNEea7Pbw8qnOUYw" name="toString" visibility="public" returnType="_4nmVgMcNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVcMcNEea7Pbw8qnOUYw" name="wait" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_4nmVcccNEea7Pbw8qnOUYw" name="wait" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw">
+        <parameters xmi:id="_4nmVcscNEea7Pbw8qnOUYw" name="arg0" type="_4nmVg8cNEea7Pbw8qnOUYw"/>
+      </operations>
+      <operations xmi:id="_4nmVc8cNEea7Pbw8qnOUYw" name="wait" visibility="public" returnType="_4nmVe8cNEea7Pbw8qnOUYw">
+        <parameters xmi:id="_4nmVdMcNEea7Pbw8qnOUYw" name="arg0" type="_4nmVg8cNEea7Pbw8qnOUYw"/>
+        <parameters xmi:id="_4nmVdccNEea7Pbw8qnOUYw" name="arg1" type="_4nmVfscNEea7Pbw8qnOUYw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4nmVdscNEea7Pbw8qnOUYw" name="Connection" instanceClassName="java.sql.Connection" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4nmVd8cNEea7Pbw8qnOUYw" name="Properties" instanceClassName="java.util.Properties"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4nmVeMcNEea7Pbw8qnOUYw" name="Object" instanceClassName="java.lang.Object"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4nmVeccNEea7Pbw8qnOUYw" name="Class" instanceClassName="java.lang.Class">
+      <typeParameters xmi:id="_4nmVescNEea7Pbw8qnOUYw" name="?"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_4nmVe8cNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RAny" xmi:id="_4nmVfMcNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_4nmVfccNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RInt" xmi:id="_4nmVfscNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RChar" xmi:id="_4nmVf8cNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RString" xmi:id="_4nmVgMcNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_4nmVgccNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_4nmVgscNEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RLong" xmi:id="_4nmVg8cNEea7Pbw8qnOUYw"/>
+  </structuralView>
+  <instantiations xmi:id="_4nmVhMcNEea7Pbw8qnOUYw">
+    <source xsi:type="ram:Aspect" href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+  </instantiations>
+  <layout xmi:id="_4nmVhccNEea7Pbw8qnOUYw">
+    <containers xmi:id="_4nmVhscNEea7Pbw8qnOUYw" key="_4nmVYMcNEea7Pbw8qnOUYw">
+      <value xmi:id="_4nmVh8cNEea7Pbw8qnOUYw" key="_4nmVYccNEea7Pbw8qnOUYw">
+        <value xmi:id="_4nmViMcNEea7Pbw8qnOUYw" x="511.00043" y="176.00014"/>
+      </value>
+      <value xmi:id="_4nmViccNEea7Pbw8qnOUYw" key="_4nmVdscNEea7Pbw8qnOUYw">
+        <value xmi:id="_4nmViscNEea7Pbw8qnOUYw" x="-24.11875" y="70.634125"/>
+      </value>
+      <value xmi:id="_4nmVi8cNEea7Pbw8qnOUYw" key="_4nmVd8cNEea7Pbw8qnOUYw">
+        <value xmi:id="_4nmVjMcNEea7Pbw8qnOUYw" x="184.33781" y="356.61627"/>
+      </value>
+      <value xmi:id="_4nmVjccNEea7Pbw8qnOUYw" key="_4nmVeMcNEea7Pbw8qnOUYw">
+        <value xmi:id="_4nmVjscNEea7Pbw8qnOUYw" x="290.91266" y="79.494995"/>
+      </value>
+      <value xmi:id="_4nmVj8cNEea7Pbw8qnOUYw" key="_4nmVeccNEea7Pbw8qnOUYw">
+        <value xmi:id="_4nmVkMcNEea7Pbw8qnOUYw" x="22.396545" y="206.73428"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

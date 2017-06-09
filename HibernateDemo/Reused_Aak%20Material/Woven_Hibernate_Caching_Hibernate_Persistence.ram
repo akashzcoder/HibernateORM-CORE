@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_rK8cgMiNEeaN1rIzxDwwjQ" name="Hibernate&lt;Hibernate,Caching,Persistence>">
+  <structuralView xmi:id="_rK8cgciNEeaN1rIzxDwwjQ">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8cgsiNEeaN1rIzxDwwjQ" name="BigDecimal" instanceClassName="java.math.BigDecimal"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8cg8iNEeaN1rIzxDwwjQ" name="OrQueryExp" instanceClassName="javax.management.OrQueryExp"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8chMiNEeaN1rIzxDwwjQ" name="Iterator" instanceClassName="java.util.Iterator" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8chciNEeaN1rIzxDwwjQ" name="List" superTypes="_rK8dGMiNEeaN1rIzxDwwjQ" instanceClassName="java.util.List" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8chsiNEeaN1rIzxDwwjQ" name="Date" superTypes="_rK8dGsiNEeaN1rIzxDwwjQ" instanceClassName="java.util.Date"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8ch8iNEeaN1rIzxDwwjQ" name="Query" visibility="public" instanceClassName="org.hibernate.Query" interface="true">
+      <operations xmi:id="_rK8ciMiNEeaN1rIzxDwwjQ" name="getNamedParameters" visibility="public">
+        <returnType xsi:type="ram:RArray" href="Persistence.ram#_p5Js98aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_rK8ciciNEeaN1rIzxDwwjQ" name="getQueryString" visibility="public" returnType="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8cisiNEeaN1rIzxDwwjQ" name="iterate" visibility="public" returnType="_rK8chMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8ci8iNEeaN1rIzxDwwjQ" name="list" visibility="public" returnType="_rK8chciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8cjMiNEeaN1rIzxDwwjQ" name="setBigDecimal" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cjciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cjsiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8cgsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cj8iNEeaN1rIzxDwwjQ" name="setBigDecimal" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8ckMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8ckciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8cgsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cksiNEeaN1rIzxDwwjQ" name="setBinary" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8ck8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8clMiNEeaN1rIzxDwwjQ" name="arg1"/>
+      </operations>
+      <operations xmi:id="_rK8clciNEeaN1rIzxDwwjQ" name="setBinary" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8clsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cl8iNEeaN1rIzxDwwjQ" name="arg1"/>
+      </operations>
+      <operations xmi:id="_rK8cmMiNEeaN1rIzxDwwjQ" name="setBoolean" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cmciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cmsiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cm8iNEeaN1rIzxDwwjQ" name="setBoolean" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cnMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cnciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cnsiNEeaN1rIzxDwwjQ" name="setByte" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cn8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8coMiNEeaN1rIzxDwwjQ" name="arg1"/>
+      </operations>
+      <operations xmi:id="_rK8cociNEeaN1rIzxDwwjQ" name="setByte" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cosiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8co8iNEeaN1rIzxDwwjQ" name="arg1"/>
+      </operations>
+      <operations xmi:id="_rK8cpMiNEeaN1rIzxDwwjQ" name="setCalendarDate" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cpciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cpsiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dHMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cp8iNEeaN1rIzxDwwjQ" name="setCalendarDate" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cqMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cqciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dHMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cqsiNEeaN1rIzxDwwjQ" name="setCalendar" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cq8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8crMiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dHMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8crciNEeaN1rIzxDwwjQ" name="setCalendar" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8crsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cr8iNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dHMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8csMiNEeaN1rIzxDwwjQ" name="setCharacter" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8csciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cssiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8drciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cs8iNEeaN1rIzxDwwjQ" name="setCharacter" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8ctMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8ctciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8drciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8ctsiNEeaN1rIzxDwwjQ" name="setDate" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8ct8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cuMiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8chsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cuciNEeaN1rIzxDwwjQ" name="setDouble" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cusiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cu8iNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dr8iNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cvMiNEeaN1rIzxDwwjQ" name="setDate" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cvciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cvsiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8chsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cv8iNEeaN1rIzxDwwjQ" name="setDouble" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cwMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cwciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dr8iNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cwsiNEeaN1rIzxDwwjQ" name="setEntity" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cw8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cxMiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cxciNEeaN1rIzxDwwjQ" name="setEntity" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cxsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cx8iNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cyMiNEeaN1rIzxDwwjQ" name="setEnum" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cyciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8cysiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8cy8iNEeaN1rIzxDwwjQ" name="setEnum" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8czMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8czciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8czsiNEeaN1rIzxDwwjQ" name="setFirstResult" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8cz8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c0MiNEeaN1rIzxDwwjQ" name="setFloat" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c0ciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c0siNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dsMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c08iNEeaN1rIzxDwwjQ" name="setFloat" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c1MiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c1ciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dsMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c1siNEeaN1rIzxDwwjQ" name="setInteger" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c18iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c2MiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c2ciNEeaN1rIzxDwwjQ" name="setInteger" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c2siNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c28iNEeaN1rIzxDwwjQ" name="arg1" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c3MiNEeaN1rIzxDwwjQ" name="setLocale" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c3ciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c3siNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dG8iNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c38iNEeaN1rIzxDwwjQ" name="setLocale" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c4MiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c4ciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dG8iNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c4siNEeaN1rIzxDwwjQ" name="setLong" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c48iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c5MiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dsciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c5ciNEeaN1rIzxDwwjQ" name="setLong" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c5siNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c58iNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dsciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c6MiNEeaN1rIzxDwwjQ" name="setMaxResults" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c6ciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c6siNEeaN1rIzxDwwjQ" name="setParameter" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c68iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c7MiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c7ciNEeaN1rIzxDwwjQ" name="setParameterList" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c7siNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c78iNEeaN1rIzxDwwjQ" name="arg1">
+          <type xsi:type="ram:RArray" href="Persistence.ram#_p5Js-MaqEeaAAKPnai61hg"/>
+        </parameters>
+      </operations>
+      <operations xmi:id="_rK8c8MiNEeaN1rIzxDwwjQ" name="setParameter" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c8ciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c8siNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c88iNEeaN1rIzxDwwjQ" name="setSerializable" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c9MiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c9ciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c9siNEeaN1rIzxDwwjQ" name="setParameterList" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c98iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c-MiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c-ciNEeaN1rIzxDwwjQ" name="setProperties" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c-siNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c-8iNEeaN1rIzxDwwjQ" name="setSerializable" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c_MiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8c_ciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8c_siNEeaN1rIzxDwwjQ" name="setShort" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8c_8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dAMiNEeaN1rIzxDwwjQ" name="arg1"/>
+      </operations>
+      <operations xmi:id="_rK8dAciNEeaN1rIzxDwwjQ" name="setShort" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dAsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dA8iNEeaN1rIzxDwwjQ" name="arg1"/>
+      </operations>
+      <operations xmi:id="_rK8dBMiNEeaN1rIzxDwwjQ" name="setString" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dBciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dBsiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dB8iNEeaN1rIzxDwwjQ" name="setString" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dCMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dCciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dCsiNEeaN1rIzxDwwjQ" name="setTime" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dC8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dDMiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8chsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dDciNEeaN1rIzxDwwjQ" name="setTimeout" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dDsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dD8iNEeaN1rIzxDwwjQ" name="setTimestamp" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dEMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dEciNEeaN1rIzxDwwjQ" name="arg1" type="_rK8chsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dEsiNEeaN1rIzxDwwjQ" name="setTimestamp" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dE8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dFMiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8chsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dFciNEeaN1rIzxDwwjQ" name="setTime" visibility="public" returnType="_rK8ch8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dFsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dF8iNEeaN1rIzxDwwjQ" name="arg1" type="_rK8chsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dGMiNEeaN1rIzxDwwjQ" name="Collection" instanceClassName="java.util.Collection" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dGciNEeaN1rIzxDwwjQ" name="Object" instanceClassName="java.lang.Object"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dGsiNEeaN1rIzxDwwjQ" name="Serializable" instanceClassName="java.io.Serializable" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dG8iNEeaN1rIzxDwwjQ" name="Locale" superTypes="_rK8dGsiNEeaN1rIzxDwwjQ" instanceClassName="java.util.Locale"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dHMiNEeaN1rIzxDwwjQ" name="Calendar" superTypes="_rK8dGsiNEeaN1rIzxDwwjQ" instanceClassName="java.util.Calendar"/>
+    <classes xsi:type="ram:Class" xmi:id="_rK8dHciNEeaN1rIzxDwwjQ" name="Configuration" visibility="public">
+      <operations xmi:id="_rK8dHsiNEeaN1rIzxDwwjQ" name="buildSessionFactory" visibility="public">
+        <returnType xsi:type="ram:ImplementationClass" href="Hibernate.ram#_eDUWI8akEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_rK8dH8iNEeaN1rIzxDwwjQ" name="configure" visibility="public" returnType="_rK8dHciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dIMiNEeaN1rIzxDwwjQ" name="create" visibility="public" returnType="_rK8dHciNEeaN1rIzxDwwjQ" operationType="Constructor"/>
+      <operations xmi:id="_rK8dIciNEeaN1rIzxDwwjQ" name="buildSessionFactory" visibility="public" returnType="_rK8dZsiNEeaN1rIzxDwwjQ"/>
+      <associationEnds xmi:id="_rK8dIsiNEeaN1rIzxDwwjQ" name="mySessionFactory" lowerBound="1" navigable="false" assoc="_rK8dqMiNEeaN1rIzxDwwjQ"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dI8iNEeaN1rIzxDwwjQ" name="Cache" visibility="public" instanceClassName="org.hibernate.cache.Cache" interface="true">
+      <operations xmi:id="_rK8dJMiNEeaN1rIzxDwwjQ" name="setRegion" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dJciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dJsiNEeaN1rIzxDwwjQ" name="clear" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dJ8iNEeaN1rIzxDwwjQ" name="destroy" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dKMiNEeaN1rIzxDwwjQ" name="get" visibility="public" returnType="_rK8dGciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dKciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dKsiNEeaN1rIzxDwwjQ" name="put" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dK8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dLMiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dLciNEeaN1rIzxDwwjQ" name="remove" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dLsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_rK8dL8iNEeaN1rIzxDwwjQ" name="Application" partiality="public" visibility="public">
+      <operations xmi:id="_rK8dMMiNEeaN1rIzxDwwjQ" name="getAppSessionFactory" extendedVisibility="package" returnType="_rK8dZsiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dMciNEeaN1rIzxDwwjQ" name="setAppSessionFactory" extendedVisibility="package" returnType="_rK8dq8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dMsiNEeaN1rIzxDwwjQ" name="newObject" type="_rK8dZsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dM8iNEeaN1rIzxDwwjQ" name="getAppTransaction" extendedVisibility="package" returnType="_rK8dmMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dNMiNEeaN1rIzxDwwjQ" name="setAppTransaction" extendedVisibility="package" returnType="_rK8dq8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dNciNEeaN1rIzxDwwjQ" name="newObject" type="_rK8dmMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dNsiNEeaN1rIzxDwwjQ" name="getAppSession" extendedVisibility="package" returnType="_rK8dPMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dN8iNEeaN1rIzxDwwjQ" name="setAppSession" extendedVisibility="package" returnType="_rK8dq8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dOMiNEeaN1rIzxDwwjQ" name="newObject" type="_rK8dPMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <associationEnds xmi:id="_rK8dOciNEeaN1rIzxDwwjQ" name="appSessionFactory" lowerBound="1" assoc="_rK8dpciNEeaN1rIzxDwwjQ">
+        <featureSelection href="Hibernate.ram#_v9610MfpEeaFCLdFiwuCbQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_rK8dOsiNEeaN1rIzxDwwjQ" name="appTransaction" lowerBound="1" assoc="_rK8dpsiNEeaN1rIzxDwwjQ">
+        <featureSelection href="Hibernate.ram#_rEJOA8fqEeaFCLdFiwuCbQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_rK8dO8iNEeaN1rIzxDwwjQ" name="appSession" lowerBound="1" assoc="_rK8dp8iNEeaN1rIzxDwwjQ">
+        <featureSelection href="Hibernate.ram#_fokMcMfzEeaGTL_UAbPiCQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_rK8dPMiNEeaN1rIzxDwwjQ" name="Session" visibility="public">
+      <operations xmi:id="_rK8dPciNEeaN1rIzxDwwjQ" name="create" visibility="public" returnType="_rK8dPMiNEeaN1rIzxDwwjQ" operationType="Constructor"/>
+      <operations xmi:id="_rK8dPsiNEeaN1rIzxDwwjQ" name="beginTransaction" visibility="public" returnType="_rK8dmMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dP8iNEeaN1rIzxDwwjQ" name="clear" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dQMiNEeaN1rIzxDwwjQ" name="close" visibility="public" returnType="_rK8dY8iNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dQciNEeaN1rIzxDwwjQ" name="connection" visibility="public" returnType="_rK8dY8iNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dQsiNEeaN1rIzxDwwjQ" name="getStatistics" visibility="public" returnType="_rK8dZsiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dQ8iNEeaN1rIzxDwwjQ" name="getTransaction" visibility="public" returnType="_rK8dmMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dRMiNEeaN1rIzxDwwjQ" name="isOpen" visibility="public" returnType="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dRciNEeaN1rIzxDwwjQ" name="isReadOnly" visibility="public" returnType="_rK8dq8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dRsiNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dR8iNEeaN1rIzxDwwjQ" name="persist" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dSMiNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dSciNEeaN1rIzxDwwjQ" name="persist" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dSsiNEeaN1rIzxDwwjQ" name="obj" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dS8iNEeaN1rIzxDwwjQ" name="obj2" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dTMiNEeaN1rIzxDwwjQ" name="save" visibility="public" returnType="_rK8dGsiNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dTciNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dTsiNEeaN1rIzxDwwjQ" name="save" visibility="public" returnType="_rK8dGsiNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dT8iNEeaN1rIzxDwwjQ" name="name" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dUMiNEeaN1rIzxDwwjQ" name="obj2" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dUciNEeaN1rIzxDwwjQ" name="saveOrUpdate" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dUsiNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dU8iNEeaN1rIzxDwwjQ" name="saveOrUpdate" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dVMiNEeaN1rIzxDwwjQ" name="str" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dVciNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dVsiNEeaN1rIzxDwwjQ" name="update" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dV8iNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dWMiNEeaN1rIzxDwwjQ" name="update" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dWciNEeaN1rIzxDwwjQ" name="entityName" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dWsiNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dW8iNEeaN1rIzxDwwjQ" name="flush" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dXMiNEeaN1rIzxDwwjQ" name="contains" visibility="public" returnType="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dXciNEeaN1rIzxDwwjQ" name="delete" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dXsiNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dX8iNEeaN1rIzxDwwjQ" name="disconnect" visibility="public" returnType="_rK8dY8iNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dYMiNEeaN1rIzxDwwjQ" name="evict" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dYciNEeaN1rIzxDwwjQ" name="obj" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <associationEnds xmi:id="_rK8dYsiNEeaN1rIzxDwwjQ" name="myApplication" lowerBound="1" navigable="false" assoc="_rK8dp8iNEeaN1rIzxDwwjQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_rK8dY8iNEeaN1rIzxDwwjQ" name="Connection"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dZMiNEeaN1rIzxDwwjQ" name="Throwable" superTypes="_rK8dGsiNEeaN1rIzxDwwjQ" instanceClassName="java.lang.Throwable"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dZciNEeaN1rIzxDwwjQ" name="PrintWriter" instanceClassName="java.io.PrintWriter"/>
+    <classes xsi:type="ram:Class" xmi:id="_rK8dZsiNEeaN1rIzxDwwjQ" name="SessionFactory" visibility="public">
+      <operations xmi:id="_rK8dZ8iNEeaN1rIzxDwwjQ" name="create" visibility="public" returnType="_rK8dZsiNEeaN1rIzxDwwjQ" operationType="Constructor"/>
+      <operations xmi:id="_rK8daMiNEeaN1rIzxDwwjQ" name="buildSessionFactory" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8daciNEeaN1rIzxDwwjQ" name="close" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dasiNEeaN1rIzxDwwjQ" name="openSession" visibility="public" returnType="_rK8dPMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8da8iNEeaN1rIzxDwwjQ" name="evictCollection" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dbMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dbciNEeaN1rIzxDwwjQ" name="evictCollection" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dbsiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8drsiNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8db8iNEeaN1rIzxDwwjQ" name="arg1" type="_rK8dGsiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dcMiNEeaN1rIzxDwwjQ" name="getMyConfiguration" extendedVisibility="package" returnType="_rK8dHciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dcciNEeaN1rIzxDwwjQ" name="setMyConfiguration" extendedVisibility="package" returnType="_rK8dq8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dcsiNEeaN1rIzxDwwjQ" name="newObject" type="_rK8dHciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <associationEnds xmi:id="_rK8dc8iNEeaN1rIzxDwwjQ" name="myApplication" lowerBound="1" navigable="false" assoc="_rK8dpciNEeaN1rIzxDwwjQ"/>
+      <associationEnds xmi:id="_rK8ddMiNEeaN1rIzxDwwjQ" name="myConfiguration" lowerBound="1" assoc="_rK8dqMiNEeaN1rIzxDwwjQ">
+        <featureSelection href="Hibernate.ram#_GnxagMiNEeac_8Jsp6uXcQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8ddciNEeaN1rIzxDwwjQ" name="ExceptionInInitializerError" visibility="public" instanceClassName="java.lang.ExceptionInInitializerError">
+      <operations xmi:id="_rK8ddsiNEeaN1rIzxDwwjQ" name="addSuppressed" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dd8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dZMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8deMiNEeaN1rIzxDwwjQ" name="equals" visibility="public" returnType="_rK8dq8iNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8deciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dGciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8desiNEeaN1rIzxDwwjQ" name="fillInStackTrace" visibility="public" returnType="_rK8dZMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8de8iNEeaN1rIzxDwwjQ" name="getCause" visibility="public" returnType="_rK8dZMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dfMiNEeaN1rIzxDwwjQ" name="getClass" visibility="public" returnType="_rK8dlciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dfciNEeaN1rIzxDwwjQ" name="getException" visibility="public" returnType="_rK8dZMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dfsiNEeaN1rIzxDwwjQ" name="getLocalizedMessage" visibility="public" returnType="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8df8iNEeaN1rIzxDwwjQ" name="getMessage" visibility="public" returnType="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dgMiNEeaN1rIzxDwwjQ" name="getStackTrace" visibility="public">
+        <returnType xsi:type="ram:RArray" href="Hibernate.ram#_o8-AQMakEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_rK8dgciNEeaN1rIzxDwwjQ" name="getSuppressed" visibility="public">
+        <returnType xsi:type="ram:RArray" href="Hibernate.ram#_pRGdMMakEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_rK8dgsiNEeaN1rIzxDwwjQ" name="hashCode" visibility="public" returnType="_rK8drMiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dg8iNEeaN1rIzxDwwjQ" name="initCause" visibility="public" returnType="_rK8dZMiNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dhMiNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dZMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dhciNEeaN1rIzxDwwjQ" name="notify" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dhsiNEeaN1rIzxDwwjQ" name="notifyAll" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dh8iNEeaN1rIzxDwwjQ" name="printStackTrace" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8diMiNEeaN1rIzxDwwjQ" name="printStackTrace" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8diciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8do8iNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8disiNEeaN1rIzxDwwjQ" name="printStackTrace" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8di8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dZciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8djMiNEeaN1rIzxDwwjQ" name="setStackTrace" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8djciNEeaN1rIzxDwwjQ" name="arg0">
+          <type xsi:type="ram:RArray" href="Hibernate.ram#_o8-AQMakEeaAAKPnai61hg"/>
+        </parameters>
+      </operations>
+      <operations xmi:id="_rK8djsiNEeaN1rIzxDwwjQ" name="toString" visibility="public" returnType="_rK8drsiNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dj8iNEeaN1rIzxDwwjQ" name="wait" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dkMiNEeaN1rIzxDwwjQ" name="wait" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dkciNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dsciNEeaN1rIzxDwwjQ"/>
+      </operations>
+      <operations xmi:id="_rK8dksiNEeaN1rIzxDwwjQ" name="wait" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ">
+        <parameters xmi:id="_rK8dk8iNEeaN1rIzxDwwjQ" name="arg0" type="_rK8dsciNEeaN1rIzxDwwjQ"/>
+        <parameters xmi:id="_rK8dlMiNEeaN1rIzxDwwjQ" name="arg1" type="_rK8drMiNEeaN1rIzxDwwjQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dlciNEeaN1rIzxDwwjQ" name="Class" superTypes="_rK8dGsiNEeaN1rIzxDwwjQ" instanceClassName="java.lang.Class">
+      <typeParameters xmi:id="_rK8dlsiNEeaN1rIzxDwwjQ" name="?"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dl8iNEeaN1rIzxDwwjQ" name="Map" instanceClassName="java.util.Map" interface="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_rK8dmMiNEeaN1rIzxDwwjQ" name="Transaction" visibility="public">
+      <operations xmi:id="_rK8dmciNEeaN1rIzxDwwjQ" name="create" visibility="public" returnType="_rK8dmMiNEeaN1rIzxDwwjQ" operationType="Constructor"/>
+      <operations xmi:id="_rK8dmsiNEeaN1rIzxDwwjQ" name="begin" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dm8iNEeaN1rIzxDwwjQ" name="commit" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dnMiNEeaN1rIzxDwwjQ" name="isActive" visibility="public" returnType="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dnciNEeaN1rIzxDwwjQ" name="rollback" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dnsiNEeaN1rIzxDwwjQ" name="setTimeout" visibility="public" returnType="_rK8dqciNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8dn8iNEeaN1rIzxDwwjQ" name="wasCommitted" visibility="public" returnType="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+      <operations xmi:id="_rK8doMiNEeaN1rIzxDwwjQ" name="wasRollbacked" visibility="public" returnType="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+      <associationEnds xmi:id="_rK8dociNEeaN1rIzxDwwjQ" name="myApplication" lowerBound="1" navigable="false" assoc="_rK8dpsiNEeaN1rIzxDwwjQ"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dosiNEeaN1rIzxDwwjQ" name="StackTraceElement" superTypes="_rK8dGsiNEeaN1rIzxDwwjQ" instanceClassName="java.lang.StackTraceElement"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8do8iNEeaN1rIzxDwwjQ" name="PrintStream" instanceClassName="java.io.PrintStream"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_rK8dpMiNEeaN1rIzxDwwjQ" name="Class" superTypes="_rK8dGsiNEeaN1rIzxDwwjQ" instanceClassName="java.lang.Class"/>
+    <associations xmi:id="_rK8dpciNEeaN1rIzxDwwjQ" name="Application_SessionFactory" ends="_rK8dOciNEeaN1rIzxDwwjQ _rK8dc8iNEeaN1rIzxDwwjQ"/>
+    <associations xmi:id="_rK8dpsiNEeaN1rIzxDwwjQ" name="Application_Transaction" ends="_rK8dOsiNEeaN1rIzxDwwjQ _rK8dociNEeaN1rIzxDwwjQ"/>
+    <associations xmi:id="_rK8dp8iNEeaN1rIzxDwwjQ" name="Application_Session" ends="_rK8dO8iNEeaN1rIzxDwwjQ _rK8dYsiNEeaN1rIzxDwwjQ"/>
+    <associations xmi:id="_rK8dqMiNEeaN1rIzxDwwjQ" name="SessionFactory_Configuration" ends="_rK8ddMiNEeaN1rIzxDwwjQ _rK8dIsiNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RVoid" xmi:id="_rK8dqciNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_rK8dqsiNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_rK8dq8iNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_rK8drMiNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_rK8drciNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RString" xmi:id="_rK8drsiNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_rK8dr8iNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_rK8dsMiNEeaN1rIzxDwwjQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_rK8dsciNEeaN1rIzxDwwjQ"/>
+  </structuralView>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8dssiNEeaN1rIzxDwwjQ" specifies="_rK8dMMiNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8ds8iNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8dtMiNEeaN1rIzxDwwjQ" covered="_rK8dtsiNEeaN1rIzxDwwjQ" message="_rK8dt8iNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8dtciNEeaN1rIzxDwwjQ" covered="_rK8dtsiNEeaN1rIzxDwwjQ" message="_rK8duMiNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8dtsiNEeaN1rIzxDwwjQ" represents="_rK8dusiNEeaN1rIzxDwwjQ" coveredBy="_rK8dtMiNEeaN1rIzxDwwjQ _rK8dtciNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8dt8iNEeaN1rIzxDwwjQ" sendEvent="_rK8du8iNEeaN1rIzxDwwjQ" receiveEvent="_rK8dtMiNEeaN1rIzxDwwjQ" signature="_rK8dMMiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8duMiNEeaN1rIzxDwwjQ" sendEvent="_rK8dtciNEeaN1rIzxDwwjQ" receiveEvent="_rK8dvMiNEeaN1rIzxDwwjQ" signature="_rK8dMMiNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_rK8duciNEeaN1rIzxDwwjQ" value="_rK8dOciNEeaN1rIzxDwwjQ"/>
+      </messages>
+      <properties xmi:id="_rK8dusiNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dL8iNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8du8iNEeaN1rIzxDwwjQ" message="_rK8dt8iNEeaN1rIzxDwwjQ" name="in_get"/>
+      <formalGates xmi:id="_rK8dvMiNEeaN1rIzxDwwjQ" message="_rK8duMiNEeaN1rIzxDwwjQ" name="out_get"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8dvciNEeaN1rIzxDwwjQ" specifies="_rK8dMciNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8dvsiNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8dv8iNEeaN1rIzxDwwjQ" covered="_rK8dw8iNEeaN1rIzxDwwjQ" message="_rK8dxMiNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:AssignmentStatement" xmi:id="_rK8dwMiNEeaN1rIzxDwwjQ" covered="_rK8dw8iNEeaN1rIzxDwwjQ" assignTo="_rK8dOciNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:OpaqueExpression" xmi:id="_rK8dwciNEeaN1rIzxDwwjQ" body="newObject" language="java"/>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8dwsiNEeaN1rIzxDwwjQ" covered="_rK8dw8iNEeaN1rIzxDwwjQ" message="_rK8dxciNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8dw8iNEeaN1rIzxDwwjQ" represents="_rK8dx8iNEeaN1rIzxDwwjQ" coveredBy="_rK8dv8iNEeaN1rIzxDwwjQ _rK8dwsiNEeaN1rIzxDwwjQ _rK8dwMiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8dxMiNEeaN1rIzxDwwjQ" sendEvent="_rK8dyMiNEeaN1rIzxDwwjQ" receiveEvent="_rK8dv8iNEeaN1rIzxDwwjQ" signature="_rK8dMciNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8dxciNEeaN1rIzxDwwjQ" sendEvent="_rK8dwsiNEeaN1rIzxDwwjQ" receiveEvent="_rK8dyciNEeaN1rIzxDwwjQ" signature="_rK8dMciNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_rK8dxsiNEeaN1rIzxDwwjQ" value="true"/>
+      </messages>
+      <properties xmi:id="_rK8dx8iNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dL8iNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8dyMiNEeaN1rIzxDwwjQ" message="_rK8dxMiNEeaN1rIzxDwwjQ" name="in_set"/>
+      <formalGates xmi:id="_rK8dyciNEeaN1rIzxDwwjQ" message="_rK8dxciNEeaN1rIzxDwwjQ" name="out_set"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8dysiNEeaN1rIzxDwwjQ" specifies="_rK8dM8iNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8dy8iNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8dzMiNEeaN1rIzxDwwjQ" covered="_rK8dzsiNEeaN1rIzxDwwjQ" message="_rK8dz8iNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8dzciNEeaN1rIzxDwwjQ" covered="_rK8dzsiNEeaN1rIzxDwwjQ" message="_rK8d0MiNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8dzsiNEeaN1rIzxDwwjQ" represents="_rK8d0siNEeaN1rIzxDwwjQ" coveredBy="_rK8dzMiNEeaN1rIzxDwwjQ _rK8dzciNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8dz8iNEeaN1rIzxDwwjQ" sendEvent="_rK8d08iNEeaN1rIzxDwwjQ" receiveEvent="_rK8dzMiNEeaN1rIzxDwwjQ" signature="_rK8dM8iNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d0MiNEeaN1rIzxDwwjQ" sendEvent="_rK8dzciNEeaN1rIzxDwwjQ" receiveEvent="_rK8d1MiNEeaN1rIzxDwwjQ" signature="_rK8dM8iNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_rK8d0ciNEeaN1rIzxDwwjQ" value="_rK8dOsiNEeaN1rIzxDwwjQ"/>
+      </messages>
+      <properties xmi:id="_rK8d0siNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dL8iNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8d08iNEeaN1rIzxDwwjQ" message="_rK8dz8iNEeaN1rIzxDwwjQ" name="in_get"/>
+      <formalGates xmi:id="_rK8d1MiNEeaN1rIzxDwwjQ" message="_rK8d0MiNEeaN1rIzxDwwjQ" name="out_get"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8d1ciNEeaN1rIzxDwwjQ" specifies="_rK8dNMiNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8d1siNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d18iNEeaN1rIzxDwwjQ" covered="_rK8d28iNEeaN1rIzxDwwjQ" message="_rK8d3MiNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:AssignmentStatement" xmi:id="_rK8d2MiNEeaN1rIzxDwwjQ" covered="_rK8d28iNEeaN1rIzxDwwjQ" assignTo="_rK8dOsiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:OpaqueExpression" xmi:id="_rK8d2ciNEeaN1rIzxDwwjQ" body="newObject" language="java"/>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d2siNEeaN1rIzxDwwjQ" covered="_rK8d28iNEeaN1rIzxDwwjQ" message="_rK8d3ciNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8d28iNEeaN1rIzxDwwjQ" represents="_rK8d38iNEeaN1rIzxDwwjQ" coveredBy="_rK8d18iNEeaN1rIzxDwwjQ _rK8d2siNEeaN1rIzxDwwjQ _rK8d2MiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d3MiNEeaN1rIzxDwwjQ" sendEvent="_rK8d4MiNEeaN1rIzxDwwjQ" receiveEvent="_rK8d18iNEeaN1rIzxDwwjQ" signature="_rK8dNMiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d3ciNEeaN1rIzxDwwjQ" sendEvent="_rK8d2siNEeaN1rIzxDwwjQ" receiveEvent="_rK8d4ciNEeaN1rIzxDwwjQ" signature="_rK8dNMiNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_rK8d3siNEeaN1rIzxDwwjQ" value="true"/>
+      </messages>
+      <properties xmi:id="_rK8d38iNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dL8iNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8d4MiNEeaN1rIzxDwwjQ" message="_rK8d3MiNEeaN1rIzxDwwjQ" name="in_set"/>
+      <formalGates xmi:id="_rK8d4ciNEeaN1rIzxDwwjQ" message="_rK8d3ciNEeaN1rIzxDwwjQ" name="out_set"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8d4siNEeaN1rIzxDwwjQ" specifies="_rK8dNsiNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8d48iNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d5MiNEeaN1rIzxDwwjQ" covered="_rK8d5siNEeaN1rIzxDwwjQ" message="_rK8d58iNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d5ciNEeaN1rIzxDwwjQ" covered="_rK8d5siNEeaN1rIzxDwwjQ" message="_rK8d6MiNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8d5siNEeaN1rIzxDwwjQ" represents="_rK8d6siNEeaN1rIzxDwwjQ" coveredBy="_rK8d5MiNEeaN1rIzxDwwjQ _rK8d5ciNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d58iNEeaN1rIzxDwwjQ" sendEvent="_rK8d68iNEeaN1rIzxDwwjQ" receiveEvent="_rK8d5MiNEeaN1rIzxDwwjQ" signature="_rK8dNsiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d6MiNEeaN1rIzxDwwjQ" sendEvent="_rK8d5ciNEeaN1rIzxDwwjQ" receiveEvent="_rK8d7MiNEeaN1rIzxDwwjQ" signature="_rK8dNsiNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_rK8d6ciNEeaN1rIzxDwwjQ" value="_rK8dO8iNEeaN1rIzxDwwjQ"/>
+      </messages>
+      <properties xmi:id="_rK8d6siNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dL8iNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8d68iNEeaN1rIzxDwwjQ" message="_rK8d58iNEeaN1rIzxDwwjQ" name="in_get"/>
+      <formalGates xmi:id="_rK8d7MiNEeaN1rIzxDwwjQ" message="_rK8d6MiNEeaN1rIzxDwwjQ" name="out_get"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8d7ciNEeaN1rIzxDwwjQ" specifies="_rK8dN8iNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8d7siNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d78iNEeaN1rIzxDwwjQ" covered="_rK8d88iNEeaN1rIzxDwwjQ" message="_rK8d9MiNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:AssignmentStatement" xmi:id="_rK8d8MiNEeaN1rIzxDwwjQ" covered="_rK8d88iNEeaN1rIzxDwwjQ" assignTo="_rK8dO8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:OpaqueExpression" xmi:id="_rK8d8ciNEeaN1rIzxDwwjQ" body="newObject" language="java"/>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d8siNEeaN1rIzxDwwjQ" covered="_rK8d88iNEeaN1rIzxDwwjQ" message="_rK8d9ciNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8d88iNEeaN1rIzxDwwjQ" represents="_rK8d98iNEeaN1rIzxDwwjQ" coveredBy="_rK8d78iNEeaN1rIzxDwwjQ _rK8d8siNEeaN1rIzxDwwjQ _rK8d8MiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d9MiNEeaN1rIzxDwwjQ" sendEvent="_rK8d-MiNEeaN1rIzxDwwjQ" receiveEvent="_rK8d78iNEeaN1rIzxDwwjQ" signature="_rK8dN8iNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d9ciNEeaN1rIzxDwwjQ" sendEvent="_rK8d8siNEeaN1rIzxDwwjQ" receiveEvent="_rK8d-ciNEeaN1rIzxDwwjQ" signature="_rK8dN8iNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_rK8d9siNEeaN1rIzxDwwjQ" value="true"/>
+      </messages>
+      <properties xmi:id="_rK8d98iNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dL8iNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8d-MiNEeaN1rIzxDwwjQ" message="_rK8d9MiNEeaN1rIzxDwwjQ" name="in_set"/>
+      <formalGates xmi:id="_rK8d-ciNEeaN1rIzxDwwjQ" message="_rK8d9ciNEeaN1rIzxDwwjQ" name="out_set"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8d-siNEeaN1rIzxDwwjQ" specifies="_rK8dcMiNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8d-8iNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d_MiNEeaN1rIzxDwwjQ" covered="_rK8d_siNEeaN1rIzxDwwjQ" message="_rK8d_8iNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8d_ciNEeaN1rIzxDwwjQ" covered="_rK8d_siNEeaN1rIzxDwwjQ" message="_rK8eAMiNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8d_siNEeaN1rIzxDwwjQ" represents="_rK8eAsiNEeaN1rIzxDwwjQ" coveredBy="_rK8d_MiNEeaN1rIzxDwwjQ _rK8d_ciNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8d_8iNEeaN1rIzxDwwjQ" sendEvent="_rK8eA8iNEeaN1rIzxDwwjQ" receiveEvent="_rK8d_MiNEeaN1rIzxDwwjQ" signature="_rK8dcMiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8eAMiNEeaN1rIzxDwwjQ" sendEvent="_rK8d_ciNEeaN1rIzxDwwjQ" receiveEvent="_rK8eBMiNEeaN1rIzxDwwjQ" signature="_rK8dcMiNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_rK8eAciNEeaN1rIzxDwwjQ" value="_rK8ddMiNEeaN1rIzxDwwjQ"/>
+      </messages>
+      <properties xmi:id="_rK8eAsiNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dZsiNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8eA8iNEeaN1rIzxDwwjQ" message="_rK8d_8iNEeaN1rIzxDwwjQ" name="in_get"/>
+      <formalGates xmi:id="_rK8eBMiNEeaN1rIzxDwwjQ" message="_rK8eAMiNEeaN1rIzxDwwjQ" name="out_get"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_rK8eBciNEeaN1rIzxDwwjQ" specifies="_rK8dcciNEeaN1rIzxDwwjQ">
+    <specification xmi:id="_rK8eBsiNEeaN1rIzxDwwjQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8eB8iNEeaN1rIzxDwwjQ" covered="_rK8eC8iNEeaN1rIzxDwwjQ" message="_rK8eDMiNEeaN1rIzxDwwjQ"/>
+      <fragments xsi:type="ram:AssignmentStatement" xmi:id="_rK8eCMiNEeaN1rIzxDwwjQ" covered="_rK8eC8iNEeaN1rIzxDwwjQ" assignTo="_rK8ddMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:OpaqueExpression" xmi:id="_rK8eCciNEeaN1rIzxDwwjQ" body="newObject" language="java"/>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_rK8eCsiNEeaN1rIzxDwwjQ" covered="_rK8eC8iNEeaN1rIzxDwwjQ" message="_rK8eDciNEeaN1rIzxDwwjQ"/>
+      <lifelines xmi:id="_rK8eC8iNEeaN1rIzxDwwjQ" represents="_rK8eD8iNEeaN1rIzxDwwjQ" coveredBy="_rK8eB8iNEeaN1rIzxDwwjQ _rK8eCsiNEeaN1rIzxDwwjQ _rK8eCMiNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8eDMiNEeaN1rIzxDwwjQ" sendEvent="_rK8eEMiNEeaN1rIzxDwwjQ" receiveEvent="_rK8eB8iNEeaN1rIzxDwwjQ" signature="_rK8dcciNEeaN1rIzxDwwjQ"/>
+      <messages xmi:id="_rK8eDciNEeaN1rIzxDwwjQ" sendEvent="_rK8eCsiNEeaN1rIzxDwwjQ" receiveEvent="_rK8eEciNEeaN1rIzxDwwjQ" signature="_rK8dcciNEeaN1rIzxDwwjQ" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_rK8eDsiNEeaN1rIzxDwwjQ" value="true"/>
+      </messages>
+      <properties xmi:id="_rK8eD8iNEeaN1rIzxDwwjQ" name="target" lowerBound="1" type="_rK8dZsiNEeaN1rIzxDwwjQ"/>
+      <formalGates xmi:id="_rK8eEMiNEeaN1rIzxDwwjQ" message="_rK8eDMiNEeaN1rIzxDwwjQ" name="in_set"/>
+      <formalGates xmi:id="_rK8eEciNEeaN1rIzxDwwjQ" message="_rK8eDciNEeaN1rIzxDwwjQ" name="out_set"/>
+    </specification>
+  </messageViews>
+  <layout xmi:id="_rK8eEsiNEeaN1rIzxDwwjQ">
+    <containers xmi:id="_rK8eE8iNEeaN1rIzxDwwjQ" key="_rK8cgciNEeaN1rIzxDwwjQ"/>
+  </layout>
+  <wovenAspects xmi:id="_rK8eFMiNEeaN1rIzxDwwjQ" name="Hibernate">
+    <comesFrom href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+    <wovenElements xmi:id="_rK8eFciNEeaN1rIzxDwwjQ" key="_rK8dRciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_Dap3IMfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eFsiNEeaN1rIzxDwwjQ" key="_rK8dTMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_WU898MfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eF8iNEeaN1rIzxDwwjQ" key="_rK8dj8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_s84ycMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eGMiNEeaN1rIzxDwwjQ" key="_rK8dmsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_9_47wMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eGciNEeaN1rIzxDwwjQ" key="_rK8dQciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_vZmjoMfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eGsiNEeaN1rIzxDwwjQ" key="_rK8dMciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_v-CKkMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eG8iNEeaN1rIzxDwwjQ" key="_rK8dnMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_Nc9twMfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eHMiNEeaN1rIzxDwwjQ" key="_rK8dZMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_kBsZEMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eHciNEeaN1rIzxDwwjQ" key="_rK8dTsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_id2pcMfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eHsiNEeaN1rIzxDwwjQ" key="_rK8dN8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_fot9cMfzEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eH8iNEeaN1rIzxDwwjQ" key="_rK8dPciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_L3jt0Mf4EeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eIMiNEeaN1rIzxDwwjQ" key="_rK8ddsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_kB078MakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eIciNEeaN1rIzxDwwjQ" key="_rK8dh8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_q7N1oMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eIsiNEeaN1rIzxDwwjQ" key="_rK8dMMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_v-A8cMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eI8iNEeaN1rIzxDwwjQ" key="_rK8dGsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_3QnFAMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eJMiNEeaN1rIzxDwwjQ" key="_rK8dasiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_aXe44MfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eJciNEeaN1rIzxDwwjQ" key="_rK8da8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_lklqgMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eJsiNEeaN1rIzxDwwjQ" key="_rK8dnciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_aWsZQMfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eJ8iNEeaN1rIzxDwwjQ" key="_rK8dfMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_nwqlMMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eKMiNEeaN1rIzxDwwjQ" key="_rK8dR8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_IeKNQMfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eKciNEeaN1rIzxDwwjQ" key="_rK8dH8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_FPTLsMiNEeac_8Jsp6uXcQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eKsiNEeaN1rIzxDwwjQ" key="_rK8dhsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_qhlNoMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eK8iNEeaN1rIzxDwwjQ" key="_rK8dfsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_oWTo4MakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eLMiNEeaN1rIzxDwwjQ" key="_rK8dGciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_mtaYcMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eLciNEeaN1rIzxDwwjQ" key="_rK8dmciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_MaOWAMf4EeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eLsiNEeaN1rIzxDwwjQ" key="_rK8daciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_W3dHsMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eL8iNEeaN1rIzxDwwjQ" key="_rK8djsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_sgRu8MakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eMMiNEeaN1rIzxDwwjQ" key="_rK8dm8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_LzCikMfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eMciNEeaN1rIzxDwwjQ" key="_rK8dQMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_pCsr8MfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eMsiNEeaN1rIzxDwwjQ" key="_rK8dRMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#__TZt4MfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eM8iNEeaN1rIzxDwwjQ" key="_rK8dZciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_roX2kMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eNMiNEeaN1rIzxDwwjQ" key="_rK8dlciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_nwSKsMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eNciNEeaN1rIzxDwwjQ" key="_rK8diMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_rUOLgMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eNsiNEeaN1rIzxDwwjQ" key="_rK8dmMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Hibernate.ram#_64P1YMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eN8iNEeaN1rIzxDwwjQ" key="_rK8dnsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_bf9ucMfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eOMiNEeaN1rIzxDwwjQ" key="_rK8dU8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_r-3FoMfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eOciNEeaN1rIzxDwwjQ" key="_rK8dW8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_KQW4wMfzEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eOsiNEeaN1rIzxDwwjQ" key="_rK8dUciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_nM2IIMfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eO8iNEeaN1rIzxDwwjQ" key="_rK8dNsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_fokMeMfzEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ePMiNEeaN1rIzxDwwjQ" key="_rK8dosiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_o85HwMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ePciNEeaN1rIzxDwwjQ" key="_rK8dSciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_TLbBMMfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ePsiNEeaN1rIzxDwwjQ" key="_rK8dkMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_tSLF8MakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eP8iNEeaN1rIzxDwwjQ" key="_rK8deMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_mtdbwMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eQMiNEeaN1rIzxDwwjQ" key="_rK8dXciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_ahhaIMfzEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eQciNEeaN1rIzxDwwjQ" key="_rK8dcMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_GnxaiMiNEeac_8Jsp6uXcQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eQsiNEeaN1rIzxDwwjQ" key="_rK8dPMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Hibernate.ram#_enXVgMfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eQ8iNEeaN1rIzxDwwjQ" key="_rK8dgsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_pm9_gMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eRMiNEeaN1rIzxDwwjQ" key="_rK8dgMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_o8-nUMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eRciNEeaN1rIzxDwwjQ" key="_rK8dY8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Hibernate.ram#_5NRr4MfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eRsiNEeaN1rIzxDwwjQ" key="_rK8dZ8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_NHXv4Mf4EeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eR8iNEeaN1rIzxDwwjQ" key="_rK8dYMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_rs_noMfzEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eSMiNEeaN1rIzxDwwjQ" key="_rK8ddciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_iOGUgMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eSciNEeaN1rIzxDwwjQ" key="_rK8dHciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Hibernate.ram#_zw_hwMiMEeac_8Jsp6uXcQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eSsiNEeaN1rIzxDwwjQ" key="_rK8dXMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_N6MtQMfzEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eS8iNEeaN1rIzxDwwjQ" key="_rK8dgciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_pRHEQMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eTMiNEeaN1rIzxDwwjQ" key="_rK8de8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_nckkgMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eTciNEeaN1rIzxDwwjQ" key="_rK8do8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_rUJTAMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eTsiNEeaN1rIzxDwwjQ" key="_rK8dIciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_9iLH8MiMEeac_8Jsp6uXcQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eT8iNEeaN1rIzxDwwjQ" key="_rK8dfciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_oDKDYMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eUMiNEeaN1rIzxDwwjQ" key="_rK8desiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_nLLSgMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eUciNEeaN1rIzxDwwjQ" key="_rK8dP8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_mq4gAMfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eUsiNEeaN1rIzxDwwjQ" key="_rK8daMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_SFgboMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eU8iNEeaN1rIzxDwwjQ" key="_rK8dPsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_jaJvEMfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eVMiNEeaN1rIzxDwwjQ" key="_rK8dX8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_m2sAAMfzEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eVciNEeaN1rIzxDwwjQ" key="_rK8dZsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Hibernate.ram#_NiJlMMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eVsiNEeaN1rIzxDwwjQ" key="_rK8dhciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_qPPgcMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eV8iNEeaN1rIzxDwwjQ" key="_rK8dl8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_m24WIManEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eWMiNEeaN1rIzxDwwjQ" key="_rK8dcciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_GnxaiciNEeac_8Jsp6uXcQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eWciNEeaN1rIzxDwwjQ" key="_rK8dNMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_rESX8cfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eWsiNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Hibernate.ram#_2BKY4MawEeao9pOfXUDxeA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eW8iNEeaN1rIzxDwwjQ" key="_rK8djMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_sDkk0MakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eXMiNEeaN1rIzxDwwjQ" key="_rK8disiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_robg8sakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eXciNEeaN1rIzxDwwjQ" key="_rK8dQsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_3pzfQMfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eXsiNEeaN1rIzxDwwjQ" key="_rK8dM8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_rESX8MfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eX8iNEeaN1rIzxDwwjQ" key="_rK8doMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_o7xzUMfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eYMiNEeaN1rIzxDwwjQ" key="_rK8dWMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_hmZnkMfyEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eYciNEeaN1rIzxDwwjQ" key="_rK8dVsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_wHS6oMfxEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eYsiNEeaN1rIzxDwwjQ" key="_rK8df8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_onwlQMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eY8iNEeaN1rIzxDwwjQ" key="_rK8dIMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_3BC9QMiMEeac_8Jsp6uXcQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eZMiNEeaN1rIzxDwwjQ" key="_rK8dksiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_vINagMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eZciNEeaN1rIzxDwwjQ" key="_rK8dbciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_rA0CoMfpEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eZsiNEeaN1rIzxDwwjQ" key="_rK8dn8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_mmIxoMfqEeaFCLdFiwuCbQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eZ8iNEeaN1rIzxDwwjQ" key="_rK8dg8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_p78xAMakEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eaMiNEeaN1rIzxDwwjQ" key="_rK8dQ8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Hibernate.ram#_72BBAMfwEeaGTL_UAbPiCQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eaciNEeaN1rIzxDwwjQ" key="_rK8dpMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Hibernate.ram#_6iiIwMakEeaAAKPnai61hg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_rK8easiNEeaN1rIzxDwwjQ" name="Caching">
+    <comesFrom href="Caching.ram#_ijbhIMbtEearrOfieNyE4A"/>
+    <wovenElements xmi:id="_rK8ea8iNEeaN1rIzxDwwjQ" key="_rK8dKsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Caching.ram#_Qk5UkMfVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ebMiNEeaN1rIzxDwwjQ" key="_rK8dI8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Caching.ram#_OD1GAMfVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ebciNEeaN1rIzxDwwjQ" key="_rK8dJ8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Caching.ram#_QHauYMfVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ebsiNEeaN1rIzxDwwjQ" key="_rK8dJsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Caching.ram#_PnhGUMfVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eb8iNEeaN1rIzxDwwjQ" key="_rK8dGciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Caching.ram#_QVFW8MfVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ecMiNEeaN1rIzxDwwjQ" key="_rK8dJMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Caching.ram#_O7npoMfVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ecciNEeaN1rIzxDwwjQ" key="_rK8dLciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Caching.ram#_QyuVMMfVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ecsiNEeaN1rIzxDwwjQ" key="_rK8dKMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Caching.ram#_QVFW88fVEeaC_Kt80GpYqw"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_rK8ec8iNEeaN1rIzxDwwjQ" name="Persistence">
+    <comesFrom href="Persistence.ram#_p5Ie0MaqEeaAAKPnai61hg"/>
+    <wovenElements xmi:id="_rK8edMiNEeaN1rIzxDwwjQ" key="_rK8cp8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGAcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8edciNEeaN1rIzxDwwjQ" key="_rK8dH8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_DVifsMfHEeaYmY5nhevPhg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8edsiNEeaN1rIzxDwwjQ" key="_rK8dHsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_7yV0AMfGEeaYmY5nhevPhg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ed8iNEeaN1rIzxDwwjQ" key="_rK8cisiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF5MaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eeMiNEeaN1rIzxDwwjQ" key="_rK8c8MiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGSsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eeciNEeaN1rIzxDwwjQ" key="_rK8dCsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGZMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eesiNEeaN1rIzxDwwjQ" key="_rK8dGMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGesaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ee8iNEeaN1rIzxDwwjQ" key="_rK8ciMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF4saqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8efMiNEeaN1rIzxDwwjQ" key="_rK8crciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGB8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8efciNEeaN1rIzxDwwjQ" key="_rK8dBMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGXsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8efsiNEeaN1rIzxDwwjQ" key="_rK8cpMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF_saqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ef8iNEeaN1rIzxDwwjQ" key="_rK8cociNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF-8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8egMiNEeaN1rIzxDwwjQ" key="_rK8c5ciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGP8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8egciNEeaN1rIzxDwwjQ" key="_rK8cmMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF8saqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8egsiNEeaN1rIzxDwwjQ" key="_rK8dB8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGYcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eg8iNEeaN1rIzxDwwjQ" key="_rK8chMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGcsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ehMiNEeaN1rIzxDwwjQ" key="_rK8chciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGc8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ehciNEeaN1rIzxDwwjQ" key="_rK8c6siNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGRMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ehsiNEeaN1rIzxDwwjQ" key="_rK8cksiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF7MaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eh8iNEeaN1rIzxDwwjQ" key="_rK8c08iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGLcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eiMiNEeaN1rIzxDwwjQ" key="_rK8dGsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGecaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eiciNEeaN1rIzxDwwjQ" key="_rK8dG8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGeMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eisiNEeaN1rIzxDwwjQ" key="_rK8ctsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGEMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ei8iNEeaN1rIzxDwwjQ" key="_rK8c0MiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGKsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ejMiNEeaN1rIzxDwwjQ" key="_rK8cyMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGIsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ejciNEeaN1rIzxDwwjQ" key="_rK8c-8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGVcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ejsiNEeaN1rIzxDwwjQ" key="_rK8dFciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGb8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ej8iNEeaN1rIzxDwwjQ" key="_rK8cnsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF-MaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ekMiNEeaN1rIzxDwwjQ" key="_rK8chsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGdsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ekciNEeaN1rIzxDwwjQ" key="_rK8cuciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGE8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eksiNEeaN1rIzxDwwjQ" key="_rK8cm8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF9caqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ek8iNEeaN1rIzxDwwjQ" key="_rK8cqsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGBMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8elMiNEeaN1rIzxDwwjQ" key="_rK8ciciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF48aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8elciNEeaN1rIzxDwwjQ" key="_rK8c4siNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGPMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8elsiNEeaN1rIzxDwwjQ" key="_rK8c6MiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGQsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8el8iNEeaN1rIzxDwwjQ" key="_rK8c88iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGTcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8emMiNEeaN1rIzxDwwjQ" key="_rK8cs8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGDcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8emciNEeaN1rIzxDwwjQ" key="_rK8c1siNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGMMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8emsiNEeaN1rIzxDwwjQ" key="_rK8clciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF78aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8em8iNEeaN1rIzxDwwjQ" key="_rK8dHciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Persistence.ram#_xPKJIMfGEeaYmY5nhevPhg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8enMiNEeaN1rIzxDwwjQ" key="_rK8cwsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGHMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8enciNEeaN1rIzxDwwjQ" key="_rK8dDciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGZ8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ensiNEeaN1rIzxDwwjQ" key="_rK8czsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGKMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8en8iNEeaN1rIzxDwwjQ" key="_rK8cv8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGGcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eoMiNEeaN1rIzxDwwjQ" key="_rK8dHMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGdcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eociNEeaN1rIzxDwwjQ" key="_rK8c-ciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGU8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eosiNEeaN1rIzxDwwjQ" key="_rK8c7ciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGR8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eo8iNEeaN1rIzxDwwjQ" key="_rK8cgsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGdMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8epMiNEeaN1rIzxDwwjQ" key="_rK8cg8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JF4MaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8epciNEeaN1rIzxDwwjQ" key="_rK8ci8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF5caqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8epsiNEeaN1rIzxDwwjQ" key="_rK8cj8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF6caqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ep8iNEeaN1rIzxDwwjQ" key="_rK8dEsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGbMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eqMiNEeaN1rIzxDwwjQ" key="_rK8cvMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGFsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eqciNEeaN1rIzxDwwjQ" key="_rK8cjMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JF5saqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eqsiNEeaN1rIzxDwwjQ" key="_rK8c9siNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGUMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8eq8iNEeaN1rIzxDwwjQ" key="_rK8c2ciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGM8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8erMiNEeaN1rIzxDwwjQ" key="_rK8ch8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JF4caqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8erciNEeaN1rIzxDwwjQ" key="_rK8c_siNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGWMaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8ersiNEeaN1rIzxDwwjQ" key="_rK8csMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGCsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8er8iNEeaN1rIzxDwwjQ" key="_rK8dGciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:ImplementationClass" href="Persistence.ram#_p5JGd8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8esMiNEeaN1rIzxDwwjQ" key="_rK8dAciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGW8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8esciNEeaN1rIzxDwwjQ" key="_rK8dD8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGacaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8essiNEeaN1rIzxDwwjQ" key="_rK8c38iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGOcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8es8iNEeaN1rIzxDwwjQ" key="_rK8cy8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGJcaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8etMiNEeaN1rIzxDwwjQ" key="_rK8c3MiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGNsaqEeaAAKPnai61hg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rK8etciNEeaN1rIzxDwwjQ" key="_rK8cxciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Persistence.ram#_p5JGH8aqEeaAAKPnai61hg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_rK8etsiNEeaN1rIzxDwwjQ" name="Association&lt;One,Association>">
+    <comesFrom href="Reused_Association/Woven_Association_Association_One.ram#_6qulAMawEeao9pOfXUDxeA"/>
+    <children xmi:id="_rK8et8iNEeaN1rIzxDwwjQ" name="Association">
+      <comesFrom href="Reused_Association/Association.ram#_mDv4YEQ1EeSSfO86-u_zzA"/>
+      <wovenElements xmi:id="_rK8euMiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rK8euciNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rK8eusiNEeaN1rIzxDwwjQ" key="_rK8dZsiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rK8eu8iNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+    </children>
+    <children xmi:id="_rK8evMiNEeaN1rIzxDwwjQ" name="One">
+      <comesFrom href="Reused_Association/One.ram#_b8ZakH2JEeW19p3ERnXRPg"/>
+      <wovenElements xmi:id="_rK8evciNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rK8evsiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rK8ev8iNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulBMawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rK8ewMiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulA8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rK8ewciNEeaN1rIzxDwwjQ" key="_rK8dZsiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmcMiNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmcciNEeaN1rIzxDwwjQ" key="_rK8dMciNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmcsiNEeaN1rIzxDwwjQ" key="_rK8dMMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+    </children>
+    <wovenElements xmi:id="_rLFmc8iNEeaN1rIzxDwwjQ" key="_rK8dZsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmdMiNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmdciNEeaN1rIzxDwwjQ" key="_rK8dMciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmdsiNEeaN1rIzxDwwjQ" key="_rK8dMMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_rLFmd8iNEeaN1rIzxDwwjQ" name="Association&lt;One,Association>">
+    <comesFrom href="Reused_Association/Woven_Association_Association_One.ram#_6qulAMawEeao9pOfXUDxeA"/>
+    <children xmi:id="_rLFmeMiNEeaN1rIzxDwwjQ" name="Association">
+      <comesFrom href="Reused_Association/Association.ram#_mDv4YEQ1EeSSfO86-u_zzA"/>
+      <wovenElements xmi:id="_rLFmeciNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmesiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFme8iNEeaN1rIzxDwwjQ" key="_rK8dmMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmfMiNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+    </children>
+    <children xmi:id="_rLFmfciNEeaN1rIzxDwwjQ" name="One">
+      <comesFrom href="Reused_Association/One.ram#_b8ZakH2JEeW19p3ERnXRPg"/>
+      <wovenElements xmi:id="_rLFmfsiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmf8iNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmgMiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulBMawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmgciNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulA8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmgsiNEeaN1rIzxDwwjQ" key="_rK8dmMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmg8iNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmhMiNEeaN1rIzxDwwjQ" key="_rK8dNMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmhciNEeaN1rIzxDwwjQ" key="_rK8dM8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+    </children>
+    <wovenElements xmi:id="_rLFmhsiNEeaN1rIzxDwwjQ" key="_rK8dmMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmh8iNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmiMiNEeaN1rIzxDwwjQ" key="_rK8dNMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmiciNEeaN1rIzxDwwjQ" key="_rK8dM8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_rLFmisiNEeaN1rIzxDwwjQ" name="Association&lt;One,Association>">
+    <comesFrom href="Reused_Association/Woven_Association_Association_One.ram#_6qulAMawEeao9pOfXUDxeA"/>
+    <children xmi:id="_rLFmi8iNEeaN1rIzxDwwjQ" name="Association">
+      <comesFrom href="Reused_Association/Association.ram#_mDv4YEQ1EeSSfO86-u_zzA"/>
+      <wovenElements xmi:id="_rLFmjMiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmjciNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmjsiNEeaN1rIzxDwwjQ" key="_rK8dPMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmj8iNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+    </children>
+    <children xmi:id="_rLFmkMiNEeaN1rIzxDwwjQ" name="One">
+      <comesFrom href="Reused_Association/One.ram#_b8ZakH2JEeW19p3ERnXRPg"/>
+      <wovenElements xmi:id="_rLFmkciNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmksiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmk8iNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulBMawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmlMiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulA8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmlciNEeaN1rIzxDwwjQ" key="_rK8dPMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmlsiNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFml8iNEeaN1rIzxDwwjQ" key="_rK8dN8iNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmmMiNEeaN1rIzxDwwjQ" key="_rK8dNsiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+    </children>
+    <wovenElements xmi:id="_rLFmmciNEeaN1rIzxDwwjQ" key="_rK8dPMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmmsiNEeaN1rIzxDwwjQ" key="_rK8dL8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmm8iNEeaN1rIzxDwwjQ" key="_rK8dN8iNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmnMiNEeaN1rIzxDwwjQ" key="_rK8dNsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_rLFmnciNEeaN1rIzxDwwjQ" name="Association&lt;One,Association>">
+    <comesFrom href="Reused_Association/Woven_Association_Association_One.ram#_6qulAMawEeao9pOfXUDxeA"/>
+    <children xmi:id="_rLFmnsiNEeaN1rIzxDwwjQ" name="Association">
+      <comesFrom href="Reused_Association/Association.ram#_mDv4YEQ1EeSSfO86-u_zzA"/>
+      <wovenElements xmi:id="_rLFmn8iNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmoMiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmociNEeaN1rIzxDwwjQ" key="_rK8dHciNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmosiNEeaN1rIzxDwwjQ" key="_rK8dZsiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+      </wovenElements>
+    </children>
+    <children xmi:id="_rLFmo8iNEeaN1rIzxDwwjQ" name="One">
+      <comesFrom href="Reused_Association/One.ram#_b8ZakH2JEeW19p3ERnXRPg"/>
+      <wovenElements xmi:id="_rLFmpMiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulAsawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmpciNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_6qulB8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmpsiNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulBMawEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmp8iNEeaN1rIzxDwwjQ">
+        <key xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_6qulA8awEeao9pOfXUDxeA"/>
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmqMiNEeaN1rIzxDwwjQ" key="_rK8dHciNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmqciNEeaN1rIzxDwwjQ" key="_rK8dZsiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Class" href="Reused_Association/One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmqsiNEeaN1rIzxDwwjQ" key="_rK8dcciNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+      </wovenElements>
+      <wovenElements xmi:id="_rLFmq8iNEeaN1rIzxDwwjQ" key="_rK8dcMiNEeaN1rIzxDwwjQ">
+        <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+      </wovenElements>
+    </children>
+    <wovenElements xmi:id="_rLFmrMiNEeaN1rIzxDwwjQ" key="_rK8dHciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmrciNEeaN1rIzxDwwjQ" key="_rK8dZsiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Class" href="Reused_Association/Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmrsiNEeaN1rIzxDwwjQ" key="_rK8dcciNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_rLFmr8iNEeaN1rIzxDwwjQ" key="_rK8dcMiNEeaN1rIzxDwwjQ">
+      <value xsi:type="ram:Operation" href="Reused_Association/One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+    </wovenElements>
+  </wovenAspects>
+</ram:Aspect>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_HI-ZEMebEeaYKf6Vy3kwXw" name="EJB3">
+  <realizes href="Hibernate.core#_HM21gMeFEeaYKf6Vy3kwXw"/>
+  <realizes href="Hibernate.core#_55ErQMeEEeaYKf6Vy3kwXw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_HI-ZEcebEeaYKf6Vy3kwXw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZEsebEeaYKf6Vy3kwXw" name="Date" visibility="public" instanceClassName="java.util.Date">
+      <operations xmi:id="_HI-ZE8ebEeaYKf6Vy3kwXw" name="after" visibility="public" returnType="_HI_AIsebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZFMebEeaYKf6Vy3kwXw" name="arg0" type="_HI-ZEsebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZFcebEeaYKf6Vy3kwXw" name="before" visibility="public" returnType="_HI_AIsebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZFsebEeaYKf6Vy3kwXw" name="arg0" type="_HI-ZEsebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZF8ebEeaYKf6Vy3kwXw" name="clone" visibility="public" returnType="_HI-ZQcebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZGMebEeaYKf6Vy3kwXw" name="compareTo" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZGcebEeaYKf6Vy3kwXw" name="arg0" type="_HI-ZQcebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZGsebEeaYKf6Vy3kwXw" name="getDate" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZG8ebEeaYKf6Vy3kwXw" name="getDay" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZHMebEeaYKf6Vy3kwXw" name="getHours" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZHcebEeaYKf6Vy3kwXw" name="getMinutes" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZHsebEeaYKf6Vy3kwXw" name="getMonth" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZH8ebEeaYKf6Vy3kwXw" name="getTime" visibility="public" returnType="_HI_AKMebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZIMebEeaYKf6Vy3kwXw" name="getSeconds" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZIcebEeaYKf6Vy3kwXw" name="getYear" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZIsebEeaYKf6Vy3kwXw" name="notifyAll" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZI8ebEeaYKf6Vy3kwXw" name="notify" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZJMebEeaYKf6Vy3kwXw" name="compareTo" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZJcebEeaYKf6Vy3kwXw" name="arg0" type="_HI-ZEsebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZJsebEeaYKf6Vy3kwXw" name="setDate" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZJ8ebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZKMebEeaYKf6Vy3kwXw" name="hashCode" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZKcebEeaYKf6Vy3kwXw" name="setHours" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZKsebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZK8ebEeaYKf6Vy3kwXw" name="getTimezoneOffset" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZLMebEeaYKf6Vy3kwXw" name="equals" visibility="public" returnType="_HI_AIsebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZLcebEeaYKf6Vy3kwXw" name="arg0" type="_HI-ZQcebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZLsebEeaYKf6Vy3kwXw" name="from" visibility="public" returnType="_HI-ZEsebEeaYKf6Vy3kwXw" static="true">
+        <parameters xmi:id="_HI-ZL8ebEeaYKf6Vy3kwXw" name="arg0" type="_HI-ZQsebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZMMebEeaYKf6Vy3kwXw" name="getClass" visibility="public" returnType="_HI-ZQ8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZMcebEeaYKf6Vy3kwXw" name="parse" visibility="public" returnType="_HI_AKMebEeaYKf6Vy3kwXw" static="true">
+        <parameters xmi:id="_HI-ZMsebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AJcebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZM8ebEeaYKf6Vy3kwXw" name="setMinutes" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZNMebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZNcebEeaYKf6Vy3kwXw" name="setMonth" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZNsebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZN8ebEeaYKf6Vy3kwXw" name="setSeconds" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZOMebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZOcebEeaYKf6Vy3kwXw" name="setTime" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZOsebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AKMebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZO8ebEeaYKf6Vy3kwXw" name="setYear" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZPMebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZPcebEeaYKf6Vy3kwXw" name="toGMTString" visibility="public" returnType="_HI_AJcebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZPsebEeaYKf6Vy3kwXw" name="wait" visibility="public" returnType="_HI_AIMebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZP8ebEeaYKf6Vy3kwXw" name="arg0" type="_HI_AKMebEeaYKf6Vy3kwXw"/>
+        <parameters xmi:id="_HI-ZQMebEeaYKf6Vy3kwXw" name="arg1" type="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZQcebEeaYKf6Vy3kwXw" name="Object" instanceClassName="java.lang.Object"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZQsebEeaYKf6Vy3kwXw" name="Instant" instanceClassName="java.time.Instant"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZQ8ebEeaYKf6Vy3kwXw" name="Class" instanceClassName="java.lang.Class">
+      <typeParameters xmi:id="_HI-ZRMebEeaYKf6Vy3kwXw" name="?"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZRcebEeaYKf6Vy3kwXw" name="Resource" visibility="public" instanceClassName="javax.annotation.Resource" interface="true">
+      <operations xmi:id="_HI-ZRsebEeaYKf6Vy3kwXw" name="annotationType" visibility="public" returnType="_HI-ZQ8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZR8ebEeaYKf6Vy3kwXw" name="authenticationType" visibility="public"/>
+      <operations xmi:id="_HI-ZSMebEeaYKf6Vy3kwXw" name="description" visibility="public" returnType="_HI_AJcebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZScebEeaYKf6Vy3kwXw" name="equals" visibility="public" returnType="_HI_AIsebEeaYKf6Vy3kwXw">
+        <parameters xmi:id="_HI-ZSsebEeaYKf6Vy3kwXw" name="arg0" type="_HI-ZQcebEeaYKf6Vy3kwXw"/>
+      </operations>
+      <operations xmi:id="_HI-ZS8ebEeaYKf6Vy3kwXw" name="hashCode" visibility="public" returnType="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZTMebEeaYKf6Vy3kwXw" name="lookup" visibility="public" returnType="_HI_AJcebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZTcebEeaYKf6Vy3kwXw" name="mappedName" visibility="public" returnType="_HI_AJcebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZTsebEeaYKf6Vy3kwXw" name="name" visibility="public" returnType="_HI_AJcebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZT8ebEeaYKf6Vy3kwXw" name="shareable" visibility="public" returnType="_HI_AIsebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZUMebEeaYKf6Vy3kwXw" name="toString" visibility="public" returnType="_HI_AJcebEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_HI-ZUcebEeaYKf6Vy3kwXw" name="type" visibility="public" returnType="_HI-ZQ8ebEeaYKf6Vy3kwXw"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZUsebEeaYKf6Vy3kwXw" name="EntityManager" instanceClassName="javax.persistence.EntityManager" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZU8ebEeaYKf6Vy3kwXw" name="AbstractEntityManagerImpl" instanceClassName="org.hibernate.ejb.AbstractEntityManagerImpl"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZVMebEeaYKf6Vy3kwXw" name="EntityManagerFactoryImpl" instanceClassName="org.hibernate.ejb.EntityManagerFactoryImpl"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZVcebEeaYKf6Vy3kwXw" name="EntityManagerImpl" superTypes="_HI-ZU8ebEeaYKf6Vy3kwXw" instanceClassName="org.hibernate.ejb.EntityManagerImpl"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZVsebEeaYKf6Vy3kwXw" name="EntityManagerFactoryBuilderImpl" instanceClassName="org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZV8ebEeaYKf6Vy3kwXw" name="EntityManagerFactory" instanceClassName="javax.persistence.EntityManagerFactory" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZWMebEeaYKf6Vy3kwXw" name="StatelessSession" instanceClassName="org.hibernate.StatelessSession" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZWcebEeaYKf6Vy3kwXw" name="StatelessSessionBuilder" instanceClassName="org.hibernate.StatelessSessionBuilder" interface="true">
+      <typeParameters xmi:id="_HI-ZWsebEeaYKf6Vy3kwXw" name="T"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_HI-ZW8ebEeaYKf6Vy3kwXw" name="PersistenceContext" instanceClassName="javax.persistence.PersistenceContext" interface="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_G1Hz4MfmEeaFCLdFiwuCbQ" name="TransactionManagement"/>
+    <types xsi:type="ram:RVoid" xmi:id="_HI_AIMebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RAny" xmi:id="_HI_AIcebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_HI_AIsebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RInt" xmi:id="_HI_AI8ebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RChar" xmi:id="_HI_AJMebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RString" xmi:id="_HI_AJcebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_HI_AJsebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_HI_AJ8ebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RLong" xmi:id="_HI_AKMebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:REnum" xmi:id="_HI_AKcebEeaYKf6Vy3kwXw" name="Resource$AuthenticationType" instanceClassName="javax.annotation.Resource$AuthenticationType">
+      <literals xmi:id="_HI_AKsebEeaYKf6Vy3kwXw" name="CONTAINER"/>
+      <literals xmi:id="_HI_AK8ebEeaYKf6Vy3kwXw" name="APPLICATION"/>
+    </types>
+    <types xsi:type="ram:REnum" xmi:id="_VD7Y8MgHEeaGTL_UAbPiCQ" name="TransactionManagementType">
+      <literals xmi:id="_dtPYIMgHEeaGTL_UAbPiCQ" name="BEAN"/>
+      <literals xmi:id="_dtPYIcgHEeaGTL_UAbPiCQ" name="CONTAINER"/>
+    </types>
+  </structuralView>
+  <instantiations xmi:id="_HI_ALMebEeaYKf6Vy3kwXw">
+    <source xsi:type="ram:Aspect" href="Transaction.ram#_XOHAsMeHEeaYKf6Vy3kwXw"/>
+  </instantiations>
+  <layout xmi:id="_HI_ALcebEeaYKf6Vy3kwXw">
+    <containers xmi:id="_HI_ALsebEeaYKf6Vy3kwXw" key="_HI-ZEcebEeaYKf6Vy3kwXw">
+      <value xmi:id="_HI_AL8ebEeaYKf6Vy3kwXw" key="_HI-ZEsebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_AMMebEeaYKf6Vy3kwXw" x="371.58612" y="-80.677124"/>
+      </value>
+      <value xmi:id="_HI_AMcebEeaYKf6Vy3kwXw" key="_HI-ZQcebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_AMsebEeaYKf6Vy3kwXw"/>
+      </value>
+      <value xmi:id="_HI_AM8ebEeaYKf6Vy3kwXw" key="_HI-ZQsebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_ANMebEeaYKf6Vy3kwXw"/>
+      </value>
+      <value xmi:id="_HI_ANcebEeaYKf6Vy3kwXw" key="_HI-ZQ8ebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_ANsebEeaYKf6Vy3kwXw"/>
+      </value>
+      <value xmi:id="_HI_AN8ebEeaYKf6Vy3kwXw" key="_HI-ZRcebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_AOMebEeaYKf6Vy3kwXw" x="615.0" y="99.0"/>
+      </value>
+      <value xmi:id="_HI_AOcebEeaYKf6Vy3kwXw" key="_HI_AKcebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_AOsebEeaYKf6Vy3kwXw"/>
+      </value>
+      <value xmi:id="_HI_AO8ebEeaYKf6Vy3kwXw" key="_HI-ZUsebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_APMebEeaYKf6Vy3kwXw" x="806.99994" y="432.0"/>
+      </value>
+      <value xmi:id="_HI_APcebEeaYKf6Vy3kwXw" key="_HI-ZU8ebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_APsebEeaYKf6Vy3kwXw" x="943.9999" y="551.99994"/>
+      </value>
+      <value xmi:id="_HI_AP8ebEeaYKf6Vy3kwXw" key="_HI-ZVMebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_AQMebEeaYKf6Vy3kwXw" x="634.82465" y="624.54047"/>
+      </value>
+      <value xmi:id="_HI_AQcebEeaYKf6Vy3kwXw" key="_HI-ZVcebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_AQsebEeaYKf6Vy3kwXw" x="916.0" y="274.0"/>
+      </value>
+      <value xmi:id="_HI_AQ8ebEeaYKf6Vy3kwXw" key="_HI-ZVsebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_ARMebEeaYKf6Vy3kwXw" x="892.73096" y="531.6447"/>
+      </value>
+      <value xmi:id="_HI_ARcebEeaYKf6Vy3kwXw" key="_HI-ZV8ebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_ARsebEeaYKf6Vy3kwXw" x="874.0002" y="110.000046"/>
+      </value>
+      <value xmi:id="_HI_AR8ebEeaYKf6Vy3kwXw" key="_HI-ZWMebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_ASMebEeaYKf6Vy3kwXw" x="91.96932" y="111.54252"/>
+      </value>
+      <value xmi:id="_HI_AScebEeaYKf6Vy3kwXw" key="_HI-ZWcebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_ASsebEeaYKf6Vy3kwXw" x="7.482221" y="454.2357"/>
+      </value>
+      <value xmi:id="_HI_AS8ebEeaYKf6Vy3kwXw" key="_HI-ZW8ebEeaYKf6Vy3kwXw">
+        <value xmi:id="_HI_ATMebEeaYKf6Vy3kwXw" x="22.615593" y="230.11082"/>
+      </value>
+      <value xmi:id="_G1Hz4cfmEeaFCLdFiwuCbQ" key="_G1Hz4MfmEeaFCLdFiwuCbQ">
+        <value xmi:id="_G1Hz4sfmEeaFCLdFiwuCbQ" x="711.0"/>
+      </value>
+      <value xmi:id="_VD7Y8cgHEeaGTL_UAbPiCQ" key="_VD7Y8MgHEeaGTL_UAbPiCQ">
+        <value xmi:id="_VD7Y8sgHEeaGTL_UAbPiCQ" x="1097.0739" y="196.85939"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

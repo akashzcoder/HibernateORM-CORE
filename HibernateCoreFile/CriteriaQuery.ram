@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_9AZqoMaqEeaAAKPnai61hg" name="CriteriaQuery">
+  <realizes href="Hibernate.core#_vnU74MZWEeaNcbv9Lxlp7g"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_9AaRsMaqEeaAAKPnai61hg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_9AaRscaqEeaAAKPnai61hg" name="Criteria" visibility="public" instanceClassName="org.hibernate.Criteria" interface="true">
+      <operations xmi:id="_9AaRssaqEeaAAKPnai61hg" name="list" visibility="public" returnType="_9AaR0caqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRs8aqEeaAAKPnai61hg" name="setFirstResult" visibility="public" returnType="_9AaRscaqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRtMaqEeaAAKPnai61hg" name="arg0" type="_9AaR1caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_9AaRtcaqEeaAAKPnai61hg" name="setMaxResults" visibility="public" returnType="_9AaRscaqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRtsaqEeaAAKPnai61hg" name="arg0" type="_9AaR1caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_9AaRt8aqEeaAAKPnai61hg" name="setTimeout" visibility="public" returnType="_9AaRscaqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRuMaqEeaAAKPnai61hg" name="arg0" type="_9AaR1caqEeaAAKPnai61hg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_9AaRucaqEeaAAKPnai61hg" name="CriteriaImpl" visibility="public" superTypes="_9AaRscaqEeaAAKPnai61hg" instanceClassName="org.hibernate.CriteriaImpl">
+      <operations xmi:id="_9AaRusaqEeaAAKPnai61hg" name="equals" visibility="public" returnType="_9AaR1MaqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRu8aqEeaAAKPnai61hg" name="arg0" type="_9AaRzsaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_9AaRvMaqEeaAAKPnai61hg" name="getClass" visibility="public" returnType="_9AaRz8aqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRvcaqEeaAAKPnai61hg" name="hashCode" visibility="public" returnType="_9AaR1caqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRvsaqEeaAAKPnai61hg" name="list" visibility="public" returnType="_9AaR0caqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRv8aqEeaAAKPnai61hg" name="notify" visibility="public" returnType="_9AaR0saqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRwMaqEeaAAKPnai61hg" name="notifyAll" visibility="public" returnType="_9AaR0saqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRwcaqEeaAAKPnai61hg" name="setFirstResult" visibility="public" returnType="_9AaRscaqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRwsaqEeaAAKPnai61hg" name="arg0" type="_9AaR1caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_9AaRw8aqEeaAAKPnai61hg" name="setMaxResults" visibility="public" returnType="_9AaRscaqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRxMaqEeaAAKPnai61hg" name="arg0" type="_9AaR1caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_9AaRxcaqEeaAAKPnai61hg" name="setTimeout" visibility="public" returnType="_9AaRscaqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRxsaqEeaAAKPnai61hg" name="arg0" type="_9AaR1caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_9AaRx8aqEeaAAKPnai61hg" name="toString" visibility="public" returnType="_9AaR18aqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRyMaqEeaAAKPnai61hg" name="wait" visibility="public" returnType="_9AaR0saqEeaAAKPnai61hg"/>
+      <operations xmi:id="_9AaRycaqEeaAAKPnai61hg" name="wait" visibility="public" returnType="_9AaR0saqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRysaqEeaAAKPnai61hg" name="arg0" type="_9AaR2saqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_9AaRy8aqEeaAAKPnai61hg" name="wait" visibility="public" returnType="_9AaR0saqEeaAAKPnai61hg">
+        <parameters xmi:id="_9AaRzMaqEeaAAKPnai61hg" name="arg0" type="_9AaR2saqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_9AaRzcaqEeaAAKPnai61hg" name="arg1" type="_9AaR1caqEeaAAKPnai61hg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_9AaRzsaqEeaAAKPnai61hg" name="Object" instanceClassName="java.lang.Object"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_9AaRz8aqEeaAAKPnai61hg" name="Class" instanceClassName="java.lang.Class">
+      <typeParameters xmi:id="_9AaR0MaqEeaAAKPnai61hg" name="?"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_9AaR0caqEeaAAKPnai61hg" name="List" instanceClassName="java.util.List" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_9AaR0saqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RAny" xmi:id="_9AaR08aqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_9AaR1MaqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RInt" xmi:id="_9AaR1caqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RChar" xmi:id="_9AaR1saqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RString" xmi:id="_9AaR18aqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_9AaR2MaqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_9AaR2caqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RLong" xmi:id="_9AaR2saqEeaAAKPnai61hg"/>
+  </structuralView>
+  <instantiations xmi:id="_9AaR28aqEeaAAKPnai61hg">
+    <source xsi:type="ram:Aspect" href="Persistence.ram#_p5Ie0MaqEeaAAKPnai61hg"/>
+  </instantiations>
+  <layout xmi:id="_9AaR3MaqEeaAAKPnai61hg">
+    <containers xmi:id="_9AaR3caqEeaAAKPnai61hg" key="_9AaRsMaqEeaAAKPnai61hg">
+      <value xmi:id="_9AaR3saqEeaAAKPnai61hg" key="_9AaRscaqEeaAAKPnai61hg">
+        <value xmi:id="_9AaR38aqEeaAAKPnai61hg" x="7.264271" y="276.2258"/>
+      </value>
+      <value xmi:id="_9AaR4MaqEeaAAKPnai61hg" key="_9AaRucaqEeaAAKPnai61hg">
+        <value xmi:id="_9AaR4caqEeaAAKPnai61hg" x="673.0" y="213.00005"/>
+      </value>
+      <value xmi:id="_9AaR4saqEeaAAKPnai61hg" key="_9AaRzsaqEeaAAKPnai61hg">
+        <value xmi:id="_9AaR48aqEeaAAKPnai61hg" x="791.7445" y="-16.552023"/>
+      </value>
+      <value xmi:id="_9AaR5MaqEeaAAKPnai61hg" key="_9AaRz8aqEeaAAKPnai61hg">
+        <value xmi:id="_9AaR5caqEeaAAKPnai61hg" x="20.690355" y="118.62359"/>
+      </value>
+      <value xmi:id="_9AaR5saqEeaAAKPnai61hg" key="_9AaR0caqEeaAAKPnai61hg">
+        <value xmi:id="_9AaR58aqEeaAAKPnai61hg" x="343.4573" y="-1.3794508"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Vs8_4MebEeaYKf6Vy3kwXw" name="JDBC">
+  <realizes href="Hibernate.core#_EaUccMeFEeaYKf6Vy3kwXw"/>
+  <realizes href="Hibernate.core#_55ErQMeEEeaYKf6Vy3kwXw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_Vs8_4cebEeaYKf6Vy3kwXw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Vs8_4sebEeaYKf6Vy3kwXw" name="JDBCTransactionFactory" instanceClassName="org.hibernate.transaction.JDBCTransactionFactory"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Vs8_48ebEeaYKf6Vy3kwXw" name="JDBCTransaction" instanceClassName="org.hibernate.transaction.JDBCTransaction"/>
+    <types xsi:type="ram:RVoid" xmi:id="_Vs8_5MebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RAny" xmi:id="_Vs8_5cebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_Vs8_5sebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RInt" xmi:id="_Vs8_58ebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RChar" xmi:id="_Vs8_6MebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RString" xmi:id="_Vs8_6cebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_Vs8_6sebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_Vs8_68ebEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RLong" xmi:id="_Vs8_7MebEeaYKf6Vy3kwXw"/>
+  </structuralView>
+  <instantiations xmi:id="_Vs8_7cebEeaYKf6Vy3kwXw">
+    <source xsi:type="ram:Aspect" href="Transaction.ram#_XOHAsMeHEeaYKf6Vy3kwXw"/>
+  </instantiations>
+  <layout xmi:id="_Vs8_7sebEeaYKf6Vy3kwXw">
+    <containers xmi:id="_Vs8_78ebEeaYKf6Vy3kwXw" key="_Vs8_4cebEeaYKf6Vy3kwXw">
+      <value xmi:id="_Vs8_8MebEeaYKf6Vy3kwXw" key="_Vs8_4sebEeaYKf6Vy3kwXw">
+        <value xmi:id="_Vs8_8cebEeaYKf6Vy3kwXw" x="439.0" y="346.0"/>
+      </value>
+      <value xmi:id="_Vs8_8sebEeaYKf6Vy3kwXw" key="_Vs8_48ebEeaYKf6Vy3kwXw">
+        <value xmi:id="_Vs8_88ebEeaYKf6Vy3kwXw" x="610.0" y="218.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

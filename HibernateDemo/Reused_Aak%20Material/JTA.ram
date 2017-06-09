@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BCJdYMeeEea-_LZwFKfPKA" name="JTA">
+  <realizes href="Hibernate.core#_CyQScMeFEeaYKf6Vy3kwXw"/>
+  <realizes href="Hibernate.core#_55ErQMeEEeaYKf6Vy3kwXw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_BCKEcMeeEea-_LZwFKfPKA">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_NtjZAMeeEea-_LZwFKfPKA" name="BaseEnversJPAFunctionalTestCase" visibility="public" instanceClassName="org.hibernate.engine.BaseEnversJPAFunctionalTestCase">
+      <operations xmi:id="_clSCQMeeEea-_LZwFKfPKA" name="testHistoryOfId1" visibility="public" returnType="_BCKrgMeeEea-_LZwFKfPKA"/>
+      <operations xmi:id="_c5ewoMeeEea-_LZwFKfPKA" name="testRevisionsCounts" visibility="public" returnType="_BCKrgMeeEea-_LZwFKfPKA"/>
+      <operations xmi:id="_eqe0MMeeEea-_LZwFKfPKA" name="initData" visibility="public" returnType="_BCKrgMeeEea-_LZwFKfPKA"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_JKgPIMefEea-_LZwFKfPKA" name="JTATransactionFactory" instanceClassName="net.sf.hibernate.transaction.JTATransactionFactory"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Pab8IMefEea-_LZwFKfPKA" name="JtaTransaction" superTypes="_NtjZAMeeEea-_LZwFKfPKA" instanceClassName="org.hibernate.engine.JtaTransaction"/>
+    <types xsi:type="ram:RVoid" xmi:id="_BCKrgMeeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RAny" xmi:id="_BCKrgceeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_BCKrgseeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RInt" xmi:id="_BCKrg8eeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RChar" xmi:id="_BCKrhMeeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RString" xmi:id="_BCKrhceeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_BCKrhseeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_BCKrh8eeEea-_LZwFKfPKA"/>
+    <types xsi:type="ram:RLong" xmi:id="_BCKriMeeEea-_LZwFKfPKA"/>
+  </structuralView>
+  <instantiations xmi:id="_BCLSkMeeEea-_LZwFKfPKA">
+    <source xsi:type="ram:Aspect" href="Transaction.ram#_XOHAsMeHEeaYKf6Vy3kwXw"/>
+  </instantiations>
+  <layout xmi:id="_BCLSkceeEea-_LZwFKfPKA">
+    <containers xmi:id="_BCLSkseeEea-_LZwFKfPKA" key="_BCKEcMeeEea-_LZwFKfPKA">
+      <value xmi:id="_NtmcUMeeEea-_LZwFKfPKA" key="_NtjZAMeeEea-_LZwFKfPKA">
+        <value xmi:id="_NtmcUceeEea-_LZwFKfPKA" x="537.0" y="148.0"/>
+      </value>
+      <value xmi:id="_JKirYMefEea-_LZwFKfPKA" key="_JKgPIMefEea-_LZwFKfPKA">
+        <value xmi:id="_JKjScMefEea-_LZwFKfPKA" x="561.0002" y="441.9999"/>
+      </value>
+      <value xmi:id="_PaeYYMefEea-_LZwFKfPKA" key="_Pab8IMefEea-_LZwFKfPKA">
+        <value xmi:id="_PaeYYcefEea-_LZwFKfPKA" x="985.9998" y="213.99992"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="__22RcMepEeadlPaEbujpbw" name="SessionStatistics">
+  <realizes href="Hibernate.core#_8uGNQMeoEeadlPaEbujpbw"/>
+  <realizes href="Hibernate.core#_M1TbAMehEeadlPaEbujpbw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="__22RccepEeadlPaEbujpbw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="__22RcsepEeadlPaEbujpbw" name="SessionStatistics" visibility="public" instanceClassName="org.hibernate.stat.SessionStatistics" interface="true">
+      <operations xmi:id="__22Rc8epEeadlPaEbujpbw" name="getCollectionCount" visibility="public" returnType="__22Re8epEeadlPaEbujpbw"/>
+      <operations xmi:id="__22RdMepEeadlPaEbujpbw" name="getCollectionKeys" visibility="public" returnType="__22Rd8epEeadlPaEbujpbw"/>
+      <operations xmi:id="__22RdcepEeadlPaEbujpbw" name="getEntityCount" visibility="public" returnType="__22Re8epEeadlPaEbujpbw"/>
+      <operations xmi:id="__22RdsepEeadlPaEbujpbw" name="getEntityKeys" visibility="public" returnType="__22Rd8epEeadlPaEbujpbw"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="__22Rd8epEeadlPaEbujpbw" name="Set" instanceClassName="java.util.Set" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="__22ReMepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RAny" xmi:id="__22RecepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="__22ResepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RInt" xmi:id="__22Re8epEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RChar" xmi:id="__22RfMepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RString" xmi:id="__22RfcepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RDouble" xmi:id="__22RfsepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RFloat" xmi:id="__22Rf8epEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RLong" xmi:id="__22RgMepEeadlPaEbujpbw"/>
+  </structuralView>
+  <instantiations xmi:id="__22RgcepEeadlPaEbujpbw">
+    <source xsi:type="ram:Aspect" href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+  </instantiations>
+  <layout xmi:id="__22RgsepEeadlPaEbujpbw">
+    <containers xmi:id="__22Rg8epEeadlPaEbujpbw" key="__22RccepEeadlPaEbujpbw">
+      <value xmi:id="__22RhMepEeadlPaEbujpbw" key="__22RcsepEeadlPaEbujpbw">
+        <value xmi:id="__22RhcepEeadlPaEbujpbw" x="523.0002" y="172.99995"/>
+      </value>
+      <value xmi:id="__22RhsepEeadlPaEbujpbw" key="__22Rd8epEeadlPaEbujpbw">
+        <value xmi:id="__22Rh8epEeadlPaEbujpbw"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

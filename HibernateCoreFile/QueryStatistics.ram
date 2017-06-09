@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_7yAjAMepEeadlPaEbujpbw" name="QueryStatistics">
+  <realizes href="Hibernate.core#_8bfaUMeoEeadlPaEbujpbw"/>
+  <realizes href="Hibernate.core#_M1TbAMehEeadlPaEbujpbw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_7yAjAcepEeadlPaEbujpbw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_7yAjAsepEeadlPaEbujpbw" name="QueryStatistics" visibility="public" instanceClassName="org.hibernate.stat.QueryStatistics" interface="true">
+      <operations xmi:id="_7yAjA8epEeadlPaEbujpbw" name="getCacheHitCount" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjBMepEeadlPaEbujpbw" name="getCacheMissCount" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjBcepEeadlPaEbujpbw" name="getCachePutCount" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjBsepEeadlPaEbujpbw" name="getExecutionAvgTime" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjB8epEeadlPaEbujpbw" name="getExecutionAvgTimeAsDouble" visibility="public" returnType="_7yAjE8epEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjCMepEeadlPaEbujpbw" name="getExecutionCount" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjCcepEeadlPaEbujpbw" name="getExecutionMaxTime" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjCsepEeadlPaEbujpbw" name="getExecutionMinTime" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjC8epEeadlPaEbujpbw" name="getExecutionRowCount" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+      <operations xmi:id="_7yAjDMepEeadlPaEbujpbw" name="getExecutionTotalTime" visibility="public" returnType="_7yAjFcepEeadlPaEbujpbw"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_7yAjDcepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RAny" xmi:id="_7yAjDsepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_7yAjD8epEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RInt" xmi:id="_7yAjEMepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RChar" xmi:id="_7yAjEcepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RString" xmi:id="_7yAjEsepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_7yAjE8epEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_7yAjFMepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RLong" xmi:id="_7yAjFcepEeadlPaEbujpbw"/>
+  </structuralView>
+  <instantiations xmi:id="_7yAjFsepEeadlPaEbujpbw">
+    <source xsi:type="ram:Aspect" href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+  </instantiations>
+  <layout xmi:id="_7yBKEMepEeadlPaEbujpbw">
+    <containers xmi:id="_7yBKEcepEeadlPaEbujpbw" key="_7yAjAcepEeadlPaEbujpbw">
+      <value xmi:id="_7yBKEsepEeadlPaEbujpbw" key="_7yAjAsepEeadlPaEbujpbw">
+        <value xmi:id="_7yBKE8epEeadlPaEbujpbw" x="186.99973" y="-30.000076"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

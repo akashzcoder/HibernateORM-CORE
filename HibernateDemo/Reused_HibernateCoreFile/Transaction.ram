@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_XOHAsMeHEeaYKf6Vy3kwXw" name="Transaction">
+  <realizes href="Hibernate.core#_yarAAMeEEeaYKf6Vy3kwXw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_XOHAsceHEeaYKf6Vy3kwXw">
+    <classes xsi:type="ram:Class" xmi:id="_XOHAsseHEeaYKf6Vy3kwXw" name="TransactionManagerLookupImpl" visibility="public">
+      <operations xmi:id="_XOHAs8eHEeaYKf6Vy3kwXw" name="begin" visibility="public" returnType="_XOHAtMeHEeaYKf6Vy3kwXw"/>
+      <operations xmi:id="_3PiV0MeHEeaYKf6Vy3kwXw" name="getTransactionIdentifier" visibility="public">
+        <returnType xsi:type="ram:ImplementationClass" href="Hibernate.ram#_mtaYcMakEeaAAKPnai61hg"/>
+        <parameters xmi:id="_3PiV0ceHEeaYKf6Vy3kwXw" name="transaction">
+          <type xsi:type="ram:ImplementationClass" href="Hibernate.ram#_eDUWJMakEeaAAKPnai61hg"/>
+        </parameters>
+      </operations>
+      <operations xmi:id="_CQ2HIMeIEeaYKf6Vy3kwXw" name="getUserTransactionName" visibility="public" returnType="_XOHnwceHEeaYKf6Vy3kwXw"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_MZUOgMfhEea6WY97CgZuHg" name="TransactionManager" instanceClassName="javax.transaction.TransactionManager"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_O4HzQMfhEea6WY97CgZuHg" name="TransactionManagerLookup" instanceClassName="org.hibernate.transaction.TransactionManagerLookup" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_XOHAtMeHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RAny" xmi:id="_XOHAtceHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_XOHAtseHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RInt" xmi:id="_XOHAt8eHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RChar" xmi:id="_XOHnwMeHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RString" xmi:id="_XOHnwceHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_XOHnwseHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_XOHnw8eHEeaYKf6Vy3kwXw"/>
+    <types xsi:type="ram:RLong" xmi:id="_XOHnxMeHEeaYKf6Vy3kwXw"/>
+  </structuralView>
+  <instantiations xmi:id="_XOHnxceHEeaYKf6Vy3kwXw">
+    <source xsi:type="ram:Aspect" href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+    <mappings xsi:type="ram:ClassifierMapping" xmi:id="_jB-QUMeHEeaYKf6Vy3kwXw" to="_XOHAsseHEeaYKf6Vy3kwXw">
+      <from xsi:type="ram:Class" href="Hibernate.ram#_atkKIMeHEeaYKf6Vy3kwXw"/>
+    </mappings>
+  </instantiations>
+  <layout xmi:id="_XOHnxseHEeaYKf6Vy3kwXw">
+    <containers xmi:id="_XOHnx8eHEeaYKf6Vy3kwXw" key="_XOHAsceHEeaYKf6Vy3kwXw">
+      <value xmi:id="_XOHnyMeHEeaYKf6Vy3kwXw" key="_XOHAsseHEeaYKf6Vy3kwXw">
+        <value xmi:id="_XOHnyceHEeaYKf6Vy3kwXw" x="516.0" y="142.0"/>
+      </value>
+      <value xmi:id="_MZUOgcfhEea6WY97CgZuHg" key="_MZUOgMfhEea6WY97CgZuHg">
+        <value xmi:id="_MZUOgsfhEea6WY97CgZuHg" x="625.0002" y="346.00003"/>
+      </value>
+      <value xmi:id="_O4HzQcfhEea6WY97CgZuHg" key="_O4HzQMfhEea6WY97CgZuHg">
+        <value xmi:id="_O4HzQsfhEea6WY97CgZuHg" x="576.0" y="512.99994"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

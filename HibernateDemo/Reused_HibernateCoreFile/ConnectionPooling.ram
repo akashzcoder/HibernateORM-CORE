@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_qRL0AMcOEea7Pbw8qnOUYw" name="ConnectionPooling">
+  <realizes href="Hibernate.core#_uv5u8Mb2EearrOfieNyE4A"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_qRL0AccOEea7Pbw8qnOUYw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qRL0AscOEea7Pbw8qnOUYw" name="ConnectionPoolDataSource" visibility="public" instanceClassName="javax.sql.ConnectionPoolDataSource" interface="true">
+      <operations xmi:id="_qRL0A8cOEea7Pbw8qnOUYw" name="getLoginTimeout" visibility="public" returnType="_qRL0FMcOEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_qRL0BMcOEea7Pbw8qnOUYw" name="getLogWriter" visibility="public" returnType="_qRL0DscOEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_qRL0BccOEea7Pbw8qnOUYw" name="getParentLogger" visibility="public" returnType="_qRL0D8cOEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_qRL0BscOEea7Pbw8qnOUYw" name="getPooledConnection" visibility="public" returnType="_qRL0EMcOEea7Pbw8qnOUYw"/>
+      <operations xmi:id="_qRL0B8cOEea7Pbw8qnOUYw" name="getPooledConnection" visibility="public" returnType="_qRL0EMcOEea7Pbw8qnOUYw">
+        <parameters xmi:id="_qRL0CMcOEea7Pbw8qnOUYw" name="arg0" type="_qRL0FscOEea7Pbw8qnOUYw"/>
+        <parameters xmi:id="_qRL0CccOEea7Pbw8qnOUYw" name="arg1" type="_qRL0FscOEea7Pbw8qnOUYw"/>
+      </operations>
+      <operations xmi:id="_qRL0CscOEea7Pbw8qnOUYw" name="setLoginTimeout" visibility="public" returnType="_qRL0EccOEea7Pbw8qnOUYw">
+        <parameters xmi:id="_qRL0C8cOEea7Pbw8qnOUYw" name="arg0" type="_qRL0FMcOEea7Pbw8qnOUYw"/>
+      </operations>
+      <operations xmi:id="_qRL0DMcOEea7Pbw8qnOUYw" name="setLogWriter" visibility="public" returnType="_qRL0EccOEea7Pbw8qnOUYw">
+        <parameters xmi:id="_qRL0DccOEea7Pbw8qnOUYw" name="arg0" type="_qRL0DscOEea7Pbw8qnOUYw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qRL0DscOEea7Pbw8qnOUYw" name="PrintWriter" instanceClassName="java.io.PrintWriter"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qRL0D8cOEea7Pbw8qnOUYw" name="Logger" instanceClassName="java.util.logging.Logger"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qRL0EMcOEea7Pbw8qnOUYw" name="PooledConnection" instanceClassName="javax.sql.PooledConnection" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_qRL0EccOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RAny" xmi:id="_qRL0EscOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_qRL0E8cOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RInt" xmi:id="_qRL0FMcOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RChar" xmi:id="_qRL0FccOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RString" xmi:id="_qRL0FscOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_qRL0F8cOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_qRL0GMcOEea7Pbw8qnOUYw"/>
+    <types xsi:type="ram:RLong" xmi:id="_qRL0GccOEea7Pbw8qnOUYw"/>
+  </structuralView>
+  <instantiations xmi:id="_qRL0GscOEea7Pbw8qnOUYw">
+    <source xsi:type="ram:Aspect" href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+  </instantiations>
+  <layout xmi:id="_qRL0G8cOEea7Pbw8qnOUYw">
+    <containers xmi:id="_qRL0HMcOEea7Pbw8qnOUYw" key="_qRL0AccOEea7Pbw8qnOUYw">
+      <value xmi:id="_qRL0HccOEea7Pbw8qnOUYw" key="_qRL0AscOEea7Pbw8qnOUYw">
+        <value xmi:id="_qRL0HscOEea7Pbw8qnOUYw" x="501.99976" y="195.00006"/>
+      </value>
+      <value xmi:id="_qRL0H8cOEea7Pbw8qnOUYw" key="_qRL0DscOEea7Pbw8qnOUYw">
+        <value xmi:id="_qRL0IMcOEea7Pbw8qnOUYw"/>
+      </value>
+      <value xmi:id="_qRL0IccOEea7Pbw8qnOUYw" key="_qRL0D8cOEea7Pbw8qnOUYw">
+        <value xmi:id="_qRL0IscOEea7Pbw8qnOUYw"/>
+      </value>
+      <value xmi:id="_qRL0I8cOEea7Pbw8qnOUYw" key="_qRL0EMcOEea7Pbw8qnOUYw">
+        <value xmi:id="_qRL0JMcOEea7Pbw8qnOUYw"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

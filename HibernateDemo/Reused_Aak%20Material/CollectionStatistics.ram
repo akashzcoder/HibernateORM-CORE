@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_h5DhoMehEeadlPaEbujpbw" name="CollectionStatistics">
+  <realizes href="Hibernate.core#_Xhyy4MehEeadlPaEbujpbw"/>
+  <realizes href="Hibernate.core#_M1TbAMehEeadlPaEbujpbw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_h5DhocehEeadlPaEbujpbw">
+    <types xsi:type="ram:RVoid" xmi:id="_h5DhosehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RAny" xmi:id="_h5Dho8ehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_h5DhpMehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RInt" xmi:id="_h5DhpcehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RChar" xmi:id="_h5DhpsehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RString" xmi:id="_h5Dhp8ehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_h5DhqMehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_h5DhqcehEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RLong" xmi:id="_h5DhqsehEeadlPaEbujpbw"/>
+  </structuralView>
+  <layout xmi:id="_h5DhrMehEeadlPaEbujpbw">
+    <containers xmi:id="_h5DhrcehEeadlPaEbujpbw" key="_h5DhocehEeadlPaEbujpbw"/>
+  </layout>
+</ram:Aspect>

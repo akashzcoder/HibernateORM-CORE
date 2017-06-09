@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_nrftIMarEeao9pOfXUDxeA" name="Projection">
+  <realizes href="Hibernate.core#_5yM0cMZWEeaNcbv9Lxlp7g"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_nrftIcarEeao9pOfXUDxeA">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_nrftIsarEeao9pOfXUDxeA" name="Projection" visibility="public" instanceClassName="org.hibernate.criterion.Projection" interface="true">
+      <operations xmi:id="_nrftI8arEeao9pOfXUDxeA" name="getAliases" visibility="public" returnType="_nrftM8arEeao9pOfXUDxeA"/>
+      <operations xmi:id="_nrftJMarEeao9pOfXUDxeA" name="getColumnAliases" visibility="public" returnType="_nrftM8arEeao9pOfXUDxeA">
+        <parameters xmi:id="_nrftJcarEeao9pOfXUDxeA" name="arg0" type="_nrftLcarEeao9pOfXUDxeA"/>
+      </operations>
+      <operations xmi:id="_nrftJsarEeao9pOfXUDxeA" name="getColumnAliases" visibility="public" returnType="_nrftM8arEeao9pOfXUDxeA">
+        <parameters xmi:id="_nrftJ8arEeao9pOfXUDxeA" name="arg0" type="_nrftL8arEeao9pOfXUDxeA"/>
+        <parameters xmi:id="_nrftKMarEeao9pOfXUDxeA" name="arg1" type="_nrftLcarEeao9pOfXUDxeA"/>
+      </operations>
+      <operations xmi:id="_nrftKcarEeao9pOfXUDxeA" name="isGrouped" visibility="public" returnType="_nrftLMarEeao9pOfXUDxeA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_nrftKsarEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RAny" xmi:id="_nrftK8arEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_nrftLMarEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RInt" xmi:id="_nrftLcarEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RChar" xmi:id="_nrftLsarEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RString" xmi:id="_nrftL8arEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_nrftMMarEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_nrftMcarEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RLong" xmi:id="_nrftMsarEeao9pOfXUDxeA"/>
+    <types xsi:type="ram:RArray" xmi:id="_nrftM8arEeao9pOfXUDxeA" type="_nrftL8arEeao9pOfXUDxeA"/>
+  </structuralView>
+  <instantiations xmi:id="_nrftNMarEeao9pOfXUDxeA">
+    <source xsi:type="ram:Aspect" href="CriteriaQuery.ram#_9AZqoMaqEeaAAKPnai61hg"/>
+  </instantiations>
+  <layout xmi:id="_nrgUMMarEeao9pOfXUDxeA">
+    <containers xmi:id="_nrgUMcarEeao9pOfXUDxeA" key="_nrftIcarEeao9pOfXUDxeA">
+      <value xmi:id="_nrgUMsarEeao9pOfXUDxeA" key="_nrftIsarEeao9pOfXUDxeA">
+        <value xmi:id="_nrgUM8arEeao9pOfXUDxeA" x="603.0" y="225.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

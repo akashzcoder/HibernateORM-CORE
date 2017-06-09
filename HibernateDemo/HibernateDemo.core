@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_ctIvIMiNEeaN1rIzxDwwjQ" name="HibernateDemo">
+  <models xsi:type="core:COREFeatureModel" href="#_ctIvIciNEeaN1rIzxDwwjQ"/>
+  <models xsi:type="ram:Aspect" href="Persistence.ram#_cfmWgMiaEeaVmZGv12brOA"/>
+  <models xsi:type="ram:Aspect" href="Transaction/Transaction.ram#_dPy9AMidEeaVmZGv12brOA"/>
+  <featureModel xmi:id="_ctIvIciNEeaN1rIzxDwwjQ" coreConcern="_ctIvIMiNEeaN1rIzxDwwjQ" root="_ctIvIsiNEeaN1rIzxDwwjQ">
+    <features xmi:id="_ctIvIsiNEeaN1rIzxDwwjQ" name="HibernateDemo" children="_G5fwwMiaEeaVmZGv12brOA _TUg_oMidEeaVmZGv12brOA"/>
+    <features xmi:id="_G5fwwMiaEeaVmZGv12brOA" name="Persistence" parent="_ctIvIsiNEeaN1rIzxDwwjQ" parentRelationship="Optional">
+      <realizedBy xsi:type="ram:Aspect" href="Persistence.ram#_cfmWgMiaEeaVmZGv12brOA"/>
+      <reuses xmi:id="_aG3kkMiaEeaVmZGv12brOA" name="Hibernate" selectedConfiguration="_aG3kkciaEeaVmZGv12brOA">
+        <reusedConcern href="Reused_HibernateCoreFile/Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+        <configurations xmi:id="_aG3kkciaEeaVmZGv12brOA" name="Hibernate_PersistenceHibernateFirstLevelCacheCaching" reuse="_aG3kkMiaEeaVmZGv12brOA">
+          <source xsi:type="core:COREFeatureModel" href="Reused_HibernateCoreFile/Hibernate.core#_sfUCEMZWEeaNcbv9Lxlp7g"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_t86BcMZWEeaNcbv9Lxlp7g"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_sfUpIMZWEeaNcbv9Lxlp7g"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_Zq6vsMbqEearrOfieNyE4A"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_WG2MAMbqEearrOfieNyE4A"/>
+        </configurations>
+      </reuses>
+    </features>
+    <features xmi:id="_TUg_oMidEeaVmZGv12brOA" name="Transaction" parent="_ctIvIsiNEeaN1rIzxDwwjQ" parentRelationship="Optional">
+      <realizedBy xsi:type="ram:Aspect" href="Transaction/Transaction.ram#_dPy9AMidEeaVmZGv12brOA"/>
+      <reuses xmi:id="_4WSpMsidEeaVmZGv12brOA" name="Hibernate" selectedConfiguration="_4WSpM8idEeaVmZGv12brOA">
+        <reusedConcern href="Reused_HibernateCoreFile/Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+        <configurations xmi:id="_4WSpM8idEeaVmZGv12brOA" name="Hibernate_FirstLevelCacheHibernateCachingPersistence" reuse="_4WSpMsidEeaVmZGv12brOA">
+          <source xsi:type="core:COREFeatureModel" href="Reused_HibernateCoreFile/Hibernate.core#_sfUCEMZWEeaNcbv9Lxlp7g"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_Zq6vsMbqEearrOfieNyE4A"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_sfUpIMZWEeaNcbv9Lxlp7g"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_WG2MAMbqEearrOfieNyE4A"/>
+          <selected href="Reused_HibernateCoreFile/Hibernate.core#_t86BcMZWEeaNcbv9Lxlp7g"/>
+        </configurations>
+      </reuses>
+    </features>
+  </featureModel>
+</core:COREConcern>

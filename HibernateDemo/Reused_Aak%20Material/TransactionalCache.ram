@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_b39SMMbuEearrOfieNyE4A" name="TransactionalCache">
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_b39SMcbuEearrOfieNyE4A">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_b39SMsbuEearrOfieNyE4A" name="TransactionalCache" visibility="public" instanceClassName="org.hibernate.cache.ehcache.TransactionalCache">
+      <operations xmi:id="_b39SM8buEearrOfieNyE4A" name="equals" visibility="public" returnType="_b395RcbuEearrOfieNyE4A">
+        <parameters xmi:id="_b39SNMbuEearrOfieNyE4A" name="arg0" type="_b395QMbuEearrOfieNyE4A"/>
+      </operations>
+      <operations xmi:id="_b39SNcbuEearrOfieNyE4A" name="getClass" visibility="public" returnType="_b395QcbuEearrOfieNyE4A"/>
+      <operations xmi:id="_b39SNsbuEearrOfieNyE4A" name="hashCode" visibility="public" returnType="_b395RsbuEearrOfieNyE4A"/>
+      <operations xmi:id="_b39SN8buEearrOfieNyE4A" name="notify" visibility="public" returnType="_b395Q8buEearrOfieNyE4A"/>
+      <operations xmi:id="_b39SOMbuEearrOfieNyE4A" name="notifyAll" visibility="public" returnType="_b395Q8buEearrOfieNyE4A"/>
+      <operations xmi:id="_b39SOcbuEearrOfieNyE4A" name="toString" visibility="public" returnType="_b395SMbuEearrOfieNyE4A"/>
+      <operations xmi:id="_b39SOsbuEearrOfieNyE4A" name="wait" visibility="public" returnType="_b395Q8buEearrOfieNyE4A"/>
+      <operations xmi:id="_b39SO8buEearrOfieNyE4A" name="wait" visibility="public" returnType="_b395Q8buEearrOfieNyE4A">
+        <parameters xmi:id="_b39SPMbuEearrOfieNyE4A" name="arg0" type="_b395S8buEearrOfieNyE4A"/>
+      </operations>
+      <operations xmi:id="_b39SPcbuEearrOfieNyE4A" name="wait" visibility="public" returnType="_b395Q8buEearrOfieNyE4A">
+        <parameters xmi:id="_b39SPsbuEearrOfieNyE4A" name="arg0" type="_b395S8buEearrOfieNyE4A"/>
+        <parameters xmi:id="_b39SP8buEearrOfieNyE4A" name="arg1" type="_b395RsbuEearrOfieNyE4A"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_b395QMbuEearrOfieNyE4A" name="Object" instanceClassName="java.lang.Object"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_b395QcbuEearrOfieNyE4A" name="Class" instanceClassName="java.lang.Class">
+      <typeParameters xmi:id="_b395QsbuEearrOfieNyE4A" name="?"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_b395Q8buEearrOfieNyE4A"/>
+    <types xsi:type="ram:RAny" xmi:id="_b395RMbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_b395RcbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RInt" xmi:id="_b395RsbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RChar" xmi:id="_b395R8buEearrOfieNyE4A"/>
+    <types xsi:type="ram:RString" xmi:id="_b395SMbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RDouble" xmi:id="_b395ScbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RFloat" xmi:id="_b395SsbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RLong" xmi:id="_b395S8buEearrOfieNyE4A"/>
+  </structuralView>
+  <instantiations xmi:id="_b395TMbuEearrOfieNyE4A">
+    <source xsi:type="ram:Aspect" href="EHCache.ram#_AzrzkMbuEearrOfieNyE4A"/>
+  </instantiations>
+  <layout xmi:id="_b395TcbuEearrOfieNyE4A">
+    <containers xmi:id="_b395TsbuEearrOfieNyE4A" key="_b39SMcbuEearrOfieNyE4A">
+      <value xmi:id="_b395T8buEearrOfieNyE4A" key="_b39SMsbuEearrOfieNyE4A">
+        <value xmi:id="_b395UMbuEearrOfieNyE4A" x="501.99982" y="46.00009"/>
+      </value>
+      <value xmi:id="_b395UcbuEearrOfieNyE4A" key="_b395QMbuEearrOfieNyE4A">
+        <value xmi:id="_b395UsbuEearrOfieNyE4A"/>
+      </value>
+      <value xmi:id="_b395U8buEearrOfieNyE4A" key="_b395QcbuEearrOfieNyE4A">
+        <value xmi:id="_b395VMbuEearrOfieNyE4A"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

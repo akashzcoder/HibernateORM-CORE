@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_p5Ie0MaqEeaAAKPnai61hg" name="Persistence">
+  <realizes href="Hibernate.core#_t86BcMZWEeaNcbv9Lxlp7g"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_p5Ie0caqEeaAAKPnai61hg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JF4MaqEeaAAKPnai61hg" name="OrQueryExp" instanceClassName="javax.management.OrQueryExp"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JF4caqEeaAAKPnai61hg" name="Query" visibility="public" instanceClassName="org.hibernate.Query" interface="true">
+      <operations xmi:id="_p5JF4saqEeaAAKPnai61hg" name="getNamedParameters" visibility="public" returnType="_p5Js98aqEeaAAKPnai61hg"/>
+      <operations xmi:id="_p5JF48aqEeaAAKPnai61hg" name="getQueryString" visibility="public" returnType="_p5Js88aqEeaAAKPnai61hg"/>
+      <operations xmi:id="_p5JF5MaqEeaAAKPnai61hg" name="iterate" visibility="public" returnType="_p5JGcsaqEeaAAKPnai61hg"/>
+      <operations xmi:id="_p5JF5caqEeaAAKPnai61hg" name="list" visibility="public" returnType="_p5JGc8aqEeaAAKPnai61hg"/>
+      <operations xmi:id="_p5JF5saqEeaAAKPnai61hg" name="setBigDecimal" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF58aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF6MaqEeaAAKPnai61hg" name="arg1" type="_p5JGdMaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JF6caqEeaAAKPnai61hg" name="setBigDecimal" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF6saqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF68aqEeaAAKPnai61hg" name="arg1" type="_p5JGdMaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JF7MaqEeaAAKPnai61hg" name="setBinary" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF7caqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF7saqEeaAAKPnai61hg" name="arg1"/>
+      </operations>
+      <operations xmi:id="_p5JF78aqEeaAAKPnai61hg" name="setBinary" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF8MaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF8caqEeaAAKPnai61hg" name="arg1"/>
+      </operations>
+      <operations xmi:id="_p5JF8saqEeaAAKPnai61hg" name="setBoolean" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF88aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF9MaqEeaAAKPnai61hg" name="arg1" type="_p5Js8MaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JF9caqEeaAAKPnai61hg" name="setBoolean" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF9saqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF98aqEeaAAKPnai61hg" name="arg1" type="_p5Js8MaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JF-MaqEeaAAKPnai61hg" name="setByte" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF-caqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF-saqEeaAAKPnai61hg" name="arg1"/>
+      </operations>
+      <operations xmi:id="_p5JF-8aqEeaAAKPnai61hg" name="setByte" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF_MaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JF_caqEeaAAKPnai61hg" name="arg1"/>
+      </operations>
+      <operations xmi:id="_p5JF_saqEeaAAKPnai61hg" name="setCalendarDate" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JF_8aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGAMaqEeaAAKPnai61hg" name="arg1" type="_p5JGdcaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGAcaqEeaAAKPnai61hg" name="setCalendarDate" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGAsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGA8aqEeaAAKPnai61hg" name="arg1" type="_p5JGdcaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGBMaqEeaAAKPnai61hg" name="setCalendar" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGBcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGBsaqEeaAAKPnai61hg" name="arg1" type="_p5JGdcaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGB8aqEeaAAKPnai61hg" name="setCalendar" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGCMaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGCcaqEeaAAKPnai61hg" name="arg1" type="_p5JGdcaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGCsaqEeaAAKPnai61hg" name="setCharacter" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGC8aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGDMaqEeaAAKPnai61hg" name="arg1" type="_p5Js8saqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGDcaqEeaAAKPnai61hg" name="setCharacter" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGDsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGD8aqEeaAAKPnai61hg" name="arg1" type="_p5Js8saqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGEMaqEeaAAKPnai61hg" name="setDate" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGEcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGEsaqEeaAAKPnai61hg" name="arg1" type="_p5JGdsaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGE8aqEeaAAKPnai61hg" name="setDouble" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGFMaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGFcaqEeaAAKPnai61hg" name="arg1" type="_p5Js9MaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGFsaqEeaAAKPnai61hg" name="setDate" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGF8aqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGGMaqEeaAAKPnai61hg" name="arg1" type="_p5JGdsaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGGcaqEeaAAKPnai61hg" name="setDouble" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGGsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGG8aqEeaAAKPnai61hg" name="arg1" type="_p5Js9MaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGHMaqEeaAAKPnai61hg" name="setEntity" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGHcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGHsaqEeaAAKPnai61hg" name="arg1" type="_p5JGd8aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGH8aqEeaAAKPnai61hg" name="setEntity" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGIMaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGIcaqEeaAAKPnai61hg" name="arg1" type="_p5JGd8aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGIsaqEeaAAKPnai61hg" name="setEnum" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGI8aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGJMaqEeaAAKPnai61hg" name="arg1" type="_p5JGd8aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGJcaqEeaAAKPnai61hg" name="setEnum" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGJsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGJ8aqEeaAAKPnai61hg" name="arg1" type="_p5JGd8aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGKMaqEeaAAKPnai61hg" name="setFirstResult" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGKcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGKsaqEeaAAKPnai61hg" name="setFloat" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGK8aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGLMaqEeaAAKPnai61hg" name="arg1" type="_p5Js9caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGLcaqEeaAAKPnai61hg" name="setFloat" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGLsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGL8aqEeaAAKPnai61hg" name="arg1" type="_p5Js9caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGMMaqEeaAAKPnai61hg" name="setInteger" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGMcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGMsaqEeaAAKPnai61hg" name="arg1" type="_p5Js8caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGM8aqEeaAAKPnai61hg" name="setInteger" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGNMaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGNcaqEeaAAKPnai61hg" name="arg1" type="_p5Js8caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGNsaqEeaAAKPnai61hg" name="setLocale" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGN8aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGOMaqEeaAAKPnai61hg" name="arg1" type="_p5JGeMaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGOcaqEeaAAKPnai61hg" name="setLocale" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGOsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGO8aqEeaAAKPnai61hg" name="arg1" type="_p5JGeMaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGPMaqEeaAAKPnai61hg" name="setLong" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGPcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGPsaqEeaAAKPnai61hg" name="arg1" type="_p5Js9saqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGP8aqEeaAAKPnai61hg" name="setLong" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGQMaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGQcaqEeaAAKPnai61hg" name="arg1" type="_p5Js9saqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGQsaqEeaAAKPnai61hg" name="setMaxResults" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGQ8aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGRMaqEeaAAKPnai61hg" name="setParameter" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGRcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGRsaqEeaAAKPnai61hg" name="arg1" type="_p5JGd8aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGR8aqEeaAAKPnai61hg" name="setParameterList" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGSMaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGScaqEeaAAKPnai61hg" name="arg1" type="_p5Js-MaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGSsaqEeaAAKPnai61hg" name="setParameter" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGS8aqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGTMaqEeaAAKPnai61hg" name="arg1" type="_p5JGd8aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGTcaqEeaAAKPnai61hg" name="setSerializable" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGTsaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGT8aqEeaAAKPnai61hg" name="arg1" type="_p5JGecaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGUMaqEeaAAKPnai61hg" name="setParameterList" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGUcaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGUsaqEeaAAKPnai61hg" name="arg1" type="_p5JGesaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGU8aqEeaAAKPnai61hg" name="setProperties" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGVMaqEeaAAKPnai61hg" name="arg0" type="_p5JGd8aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGVcaqEeaAAKPnai61hg" name="setSerializable" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGVsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGV8aqEeaAAKPnai61hg" name="arg1" type="_p5JGecaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGWMaqEeaAAKPnai61hg" name="setShort" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGWcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGWsaqEeaAAKPnai61hg" name="arg1"/>
+      </operations>
+      <operations xmi:id="_p5JGW8aqEeaAAKPnai61hg" name="setShort" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGXMaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGXcaqEeaAAKPnai61hg" name="arg1"/>
+      </operations>
+      <operations xmi:id="_p5JGXsaqEeaAAKPnai61hg" name="setString" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGX8aqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGYMaqEeaAAKPnai61hg" name="arg1" type="_p5Js88aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGYcaqEeaAAKPnai61hg" name="setString" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGYsaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGY8aqEeaAAKPnai61hg" name="arg1" type="_p5Js88aqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGZMaqEeaAAKPnai61hg" name="setTime" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGZcaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGZsaqEeaAAKPnai61hg" name="arg1" type="_p5JGdsaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGZ8aqEeaAAKPnai61hg" name="setTimeout" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGaMaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGacaqEeaAAKPnai61hg" name="setTimestamp" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGasaqEeaAAKPnai61hg" name="arg0" type="_p5Js8caqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGa8aqEeaAAKPnai61hg" name="arg1" type="_p5JGdsaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGbMaqEeaAAKPnai61hg" name="setTimestamp" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGbcaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGbsaqEeaAAKPnai61hg" name="arg1" type="_p5JGdsaqEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_p5JGb8aqEeaAAKPnai61hg" name="setTime" visibility="public" returnType="_p5JF4caqEeaAAKPnai61hg">
+        <parameters xmi:id="_p5JGcMaqEeaAAKPnai61hg" name="arg0" type="_p5Js88aqEeaAAKPnai61hg"/>
+        <parameters xmi:id="_p5JGccaqEeaAAKPnai61hg" name="arg1" type="_p5JGdsaqEeaAAKPnai61hg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGcsaqEeaAAKPnai61hg" name="Iterator" instanceClassName="java.util.Iterator" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGc8aqEeaAAKPnai61hg" name="List" superTypes="_p5JGesaqEeaAAKPnai61hg" instanceClassName="java.util.List" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGdMaqEeaAAKPnai61hg" name="BigDecimal" instanceClassName="java.math.BigDecimal"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGdcaqEeaAAKPnai61hg" name="Calendar" superTypes="_p5JGecaqEeaAAKPnai61hg" instanceClassName="java.util.Calendar"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGdsaqEeaAAKPnai61hg" name="Date" superTypes="_p5JGecaqEeaAAKPnai61hg" instanceClassName="java.util.Date"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGd8aqEeaAAKPnai61hg" name="Object" instanceClassName="java.lang.Object"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGeMaqEeaAAKPnai61hg" name="Locale" superTypes="_p5JGecaqEeaAAKPnai61hg" instanceClassName="java.util.Locale"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGecaqEeaAAKPnai61hg" name="Serializable" instanceClassName="java.io.Serializable" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_p5JGesaqEeaAAKPnai61hg" name="Collection" instanceClassName="java.util.Collection" interface="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_xPKJIMfGEeaYmY5nhevPhg" name="Configuration" visibility="public">
+      <operations xmi:id="_7yV0AMfGEeaYmY5nhevPhg" name="buildSessionFactory" visibility="public">
+        <returnType xsi:type="ram:ImplementationClass" href="Hibernate.ram#_eDUWI8akEeaAAKPnai61hg"/>
+      </operations>
+      <operations xmi:id="_DVifsMfHEeaYmY5nhevPhg" name="configure" visibility="public" returnType="_xPKJIMfGEeaYmY5nhevPhg"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_p5JGe8aqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RAny" xmi:id="_p5JGfMaqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_p5Js8MaqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RInt" xmi:id="_p5Js8caqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RChar" xmi:id="_p5Js8saqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RString" xmi:id="_p5Js88aqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_p5Js9MaqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_p5Js9caqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RLong" xmi:id="_p5Js9saqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RArray" xmi:id="_p5Js98aqEeaAAKPnai61hg" type="_p5Js88aqEeaAAKPnai61hg"/>
+    <types xsi:type="ram:RArray" xmi:id="_p5Js-MaqEeaAAKPnai61hg" type="_p5JGd8aqEeaAAKPnai61hg"/>
+  </structuralView>
+  <instantiations xmi:id="_p5Js-caqEeaAAKPnai61hg">
+    <source xsi:type="ram:Aspect" href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+    <mappings xsi:type="ram:ClassifierMapping" xmi:id="_0QoWEMfGEeaYmY5nhevPhg">
+      <to xsi:type="ram:Class" href="Hibernate.ram#_2BKY4MawEeao9pOfXUDxeA"/>
+      <from xsi:type="ram:Class" href="Hibernate.ram#_2BKY4MawEeao9pOfXUDxeA"/>
+    </mappings>
+  </instantiations>
+  <layout xmi:id="_p5Js-saqEeaAAKPnai61hg">
+    <containers xmi:id="_p5Js-8aqEeaAAKPnai61hg" key="_p5Ie0caqEeaAAKPnai61hg">
+      <value xmi:id="_p5Js_MaqEeaAAKPnai61hg" key="_p5JF4MaqEeaAAKPnai61hg">
+        <value xmi:id="_p5Js_caqEeaAAKPnai61hg" x="496.0" y="60.0"/>
+      </value>
+      <value xmi:id="_p5Js_saqEeaAAKPnai61hg" key="_p5JF4caqEeaAAKPnai61hg">
+        <value xmi:id="_p5Js_8aqEeaAAKPnai61hg" x="252.99979" y="6.999939"/>
+      </value>
+      <value xmi:id="_p5JtAMaqEeaAAKPnai61hg" key="_p5JGcsaqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtAcaqEeaAAKPnai61hg" x="828.11237" y="403.50064"/>
+      </value>
+      <value xmi:id="_p5JtAsaqEeaAAKPnai61hg" key="_p5JGc8aqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtA8aqEeaAAKPnai61hg" x="28.147314" y="199.40385"/>
+      </value>
+      <value xmi:id="_p5JtBMaqEeaAAKPnai61hg" key="_p5JGdMaqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtBcaqEeaAAKPnai61hg" x="-539.5686" y="138.40968"/>
+      </value>
+      <value xmi:id="_p5JtBsaqEeaAAKPnai61hg" key="_p5JGdcaqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtB8aqEeaAAKPnai61hg" x="-192.37" y="982.9474"/>
+      </value>
+      <value xmi:id="_p5JtCMaqEeaAAKPnai61hg" key="_p5JGdsaqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtCcaqEeaAAKPnai61hg" x="-663.90314" y="654.5162"/>
+      </value>
+      <value xmi:id="_p5JtCsaqEeaAAKPnai61hg" key="_p5JGd8aqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtC8aqEeaAAKPnai61hg" x="-39.883995" y="619.3273"/>
+      </value>
+      <value xmi:id="_p5JtDMaqEeaAAKPnai61hg" key="_p5JGeMaqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtDcaqEeaAAKPnai61hg" x="-342.5107" y="722.54816"/>
+      </value>
+      <value xmi:id="_p5JtDsaqEeaAAKPnai61hg" key="_p5JGecaqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtD8aqEeaAAKPnai61hg" x="-497.3425" y="328.43042"/>
+      </value>
+      <value xmi:id="_p5JtEMaqEeaAAKPnai61hg" key="_p5JGesaqEeaAAKPnai61hg">
+        <value xmi:id="_p5JtEcaqEeaAAKPnai61hg" x="-166.56947" y="380.04172"/>
+      </value>
+      <value xmi:id="_xPSsAMfGEeaYmY5nhevPhg" key="_xPKJIMfGEeaYmY5nhevPhg">
+        <value xmi:id="_xPSsAcfGEeaYmY5nhevPhg" x="1343.6046" y="503.40897"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_tyeXAMbuEearrOfieNyE4A" name="QueryCaching">
+  <realizes href="Hibernate.core#_fUHz4MbqEearrOfieNyE4A"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_tyeXAcbuEearrOfieNyE4A">
+    <types xsi:type="ram:RVoid" xmi:id="_tyeXAsbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RAny" xmi:id="_tyeXA8buEearrOfieNyE4A"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_tyeXBMbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RInt" xmi:id="_tyeXBcbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RChar" xmi:id="_tyeXBsbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RString" xmi:id="_tyeXB8buEearrOfieNyE4A"/>
+    <types xsi:type="ram:RDouble" xmi:id="_tyeXCMbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RFloat" xmi:id="_tyeXCcbuEearrOfieNyE4A"/>
+    <types xsi:type="ram:RLong" xmi:id="_tyeXCsbuEearrOfieNyE4A"/>
+  </structuralView>
+  <instantiations xmi:id="_tyeXC8buEearrOfieNyE4A">
+    <source xsi:type="ram:Aspect" href="Caching.ram#_ijbhIMbtEearrOfieNyE4A"/>
+  </instantiations>
+  <instantiations xmi:id="_tyeXDMbuEearrOfieNyE4A">
+    <source xsi:type="ram:Aspect" href="EHCache.ram#_AzrzkMbuEearrOfieNyE4A"/>
+  </instantiations>
+  <layout xmi:id="_tyeXDcbuEearrOfieNyE4A">
+    <containers xmi:id="_tyeXDsbuEearrOfieNyE4A" key="_tyeXAcbuEearrOfieNyE4A"/>
+  </layout>
+</ram:Aspect>

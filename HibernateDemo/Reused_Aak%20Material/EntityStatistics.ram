@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_zPrVkMepEeadlPaEbujpbw" name="EntityStatistics">
+  <realizes href="Hibernate.core#_8FkNoMeoEeadlPaEbujpbw"/>
+  <realizes href="Hibernate.core#_M1TbAMehEeadlPaEbujpbw"/>
+  <coreConcern href="Hibernate.core#_sfSz8MZWEeaNcbv9Lxlp7g"/>
+  <structuralView xmi:id="_zPrVkcepEeadlPaEbujpbw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_zPrVksepEeadlPaEbujpbw" name="EntityStatistics" visibility="public" instanceClassName="org.hibernate.stat.EntityStatistics" interface="true">
+      <operations xmi:id="_zPrVk8epEeadlPaEbujpbw" name="getDeleteCount" visibility="public" returnType="_zPrVocepEeadlPaEbujpbw"/>
+      <operations xmi:id="_zPrVlMepEeadlPaEbujpbw" name="getFetchCount" visibility="public" returnType="_zPrVocepEeadlPaEbujpbw"/>
+      <operations xmi:id="_zPrVlcepEeadlPaEbujpbw" name="getInsertCount" visibility="public" returnType="_zPrVocepEeadlPaEbujpbw"/>
+      <operations xmi:id="_zPrVlsepEeadlPaEbujpbw" name="getLoadCount" visibility="public" returnType="_zPrVocepEeadlPaEbujpbw"/>
+      <operations xmi:id="_zPrVl8epEeadlPaEbujpbw" name="getOptimisticFailureCount" visibility="public" returnType="_zPrVocepEeadlPaEbujpbw"/>
+      <operations xmi:id="_zPrVmMepEeadlPaEbujpbw" name="getUpdateCount" visibility="public" returnType="_zPrVocepEeadlPaEbujpbw"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_zPrVmcepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RAny" xmi:id="_zPrVmsepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_zPrVm8epEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RInt" xmi:id="_zPrVnMepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RChar" xmi:id="_zPrVncepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RString" xmi:id="_zPrVnsepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_zPrVn8epEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_zPrVoMepEeadlPaEbujpbw"/>
+    <types xsi:type="ram:RLong" xmi:id="_zPrVocepEeadlPaEbujpbw"/>
+  </structuralView>
+  <instantiations xmi:id="_zPrVosepEeadlPaEbujpbw">
+    <source xsi:type="ram:Aspect" href="Hibernate.ram#_eDUWIMakEeaAAKPnai61hg"/>
+  </instantiations>
+  <layout xmi:id="_zPrVo8epEeadlPaEbujpbw">
+    <containers xmi:id="_zPrVpMepEeadlPaEbujpbw" key="_zPrVkcepEeadlPaEbujpbw">
+      <value xmi:id="_zPrVpcepEeadlPaEbujpbw" key="_zPrVksepEeadlPaEbujpbw">
+        <value xmi:id="_zPrVpsepEeadlPaEbujpbw" x="227.99979" y="278.0001"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
